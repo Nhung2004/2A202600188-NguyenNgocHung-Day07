@@ -1,0 +1,37 @@
+[
+    {
+        "id": "q1",
+        "question": "What is the legal marriage age for men and women in Vietnam?",
+        "gold_answer": "The man must be full 20 years or older, the woman must be full 18 years or older.",
+        "expected_source": "Law on Marriage and Family 2014.txt",
+        "category": "family-civil"
+    },
+    {
+        "id": "q2",
+        "question": "What is the definition of a child under Vietnamese law?",
+        "gold_answer": "A child is a human being below the age of 16.",
+        "expected_source": "Children Law 2016.txt",
+        "category": "family-civil"
+    },
+    {
+        "id": "q3",
+        "question": "What are the prohibited acts regarding the press in Vietnam?",
+        "gold_answer": "Prohibited acts include posting info opposing the State, inciting violence, disclosing state secrets, disseminating false info.",
+        "expected_source": "Law on Press 2025.txt",
+        "category": "media-press"
+    },
+    {
+        "id": "q4",
+        "question": "What qualifications are required for educators at the university level?",
+        "gold_answer": "Lecturers at university must possess a master's degree or higher; postgraduate lecturers must hold a doctorate.",
+        "expected_source": "Law on Educators 2025.txt",
+        "category": "education"
+    },
+    {
+        "id": "q5",
+        "question": "What are the banned business lines for investment in Vietnam?",
+        "gold_answer": "Banned: narcotics, prostitution, human trafficking, asexual reproduction, firecrackers, debt collection services, national treasures.",
+        "expected_source": "Law on Investment 2025.txt",
+        "category": "business"
+    }
+]

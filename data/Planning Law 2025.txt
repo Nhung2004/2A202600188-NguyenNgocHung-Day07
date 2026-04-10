@@ -1,0 +1,2560 @@
+THE NATIONAL ASSEMBLY
+-------
+
+THE SOCIALIST REPUBLIC OF VIETNAM
+Independence - Freedom - Happiness
+---------------
+
+Law No. 112/2025/QH15
+
+Hanoi, December 10, 2025
+
+ 
+
+PLANNING LAW
+
+Pursuant to the Constitution of Socialist Republic of Vietnam amended and supplemented by the Resolution No. 203/2025/QH15;
+
+The National Assembly promulgates the Law on Planning.
+
+Chapter I
+
+GENERAL PROVISIONS
+
+Article 1. Scope
+
+This Law provides for planning system; formulation, appraisal, decision or approval, announcement, provision of information on, implementation, assessment and adjustment of planning schemes; state management of planning activities.
+
+Article 2. Regulated entities
+
+...
+
+...
+
+...
+
+
+
+
+
+Article 3. Definitions
+
+For the purposes of this Law, the terms below shall be construed as follows:
+
+1. “planning” means the orientations for development, arrangement and distribution of space for economic, social, national defense and security activities in combination with infrastructure development, use of natural resources and environmental protection in a territory for a certain period in order to effectively utilize the country's resources to achieve sustainable development goals and outline an overall and long-term vision for national development.
+
+2. “national master planning scheme” means a national-level planning scheme which provides orientations for the development, arrangement and distribution of space for economic, social, national defense and security activities, system of urban areas, infrastructure, use of natural resources, environmental protection, natural disaster management and adaptation to climate change, having national and international importance and strategic inter-regional importance across the territory including the mainland, islands, and waters.
+
+3. “national marine spatial planning scheme” means a national-level planning scheme which concretizes the national master planning scheme in terms of the orientations for development of national marine space, including the arrangement and distribution of space for economic, social, national defense and security activities within coastal areas, islands and territorial waters that belong to sovereignty, sovereign rights and national jurisdiction of Vietnam.
+
+4. “national land use planning scheme” means a national-level planning scheme which concretizes the national master planning scheme in terms of the orientations for land use to accomplish the objectives of socio-economic development, national defense and security, environmental protection, natural disaster management and adaptation to climate change on the basis of land potential and demand for land use by sectors and fields for each region.
+
+5. “sectoral planning scheme” means a national-level planning scheme which concretizes the national master planning scheme in terms of the orientations for the development, arrangement and distribution of space and resources for sectors including infrastructure, use of natural resources, environmental protection and biodiversity conservation, having national, inter-regional and inter-provincial importance.
+
+6. “region” means part of a national territory that embraces some adjacent provinces and cities which are formed on the basis of the geographical, economic, social, environmental, cultural and infrastructural connections, determined for the formulation of a regional planning scheme.
+
+7. “regional planning scheme” means a planning scheme which concretizes the national master planning scheme for a region in terms of the orientations for the development, arrangement and distribution of space for economic, social, national defense and security activities, system of urban areas, infrastructure for inter-provincial connection, use of natural resources, environmental protection, natural disaster management and adaptation to climate change, satisfying the requirements for sustainable development and connection among sectors and localities within a region.
+
+...
+
+...
+
+...
+
+
+
+
+
+9. “sectoral detailed planning scheme” means a planning scheme which concretizes a planning scheme as provided for in section 2 of the Appendix to this Law in terms of the plan for the development, arrangement and distribution of development for sectors including infrastructure and use of natural resources.
+
+10. “planning integration” means an integrated approach and comprehensive cooperation in addressing cross-sectoral, inter-regional, and inter-provincial issues related to infrastructure, use of natural resources, environmental protection, biodiversity conservation, ensuring connectivity, consistency and systemic nature in order to achieve balanced, harmonious, efficient, and sustainable development goals.
+
+11. “planning activities” includes the organization of formulation, appraisal, decision or approval, announcement, provision of information on, implementation, assessment and adjustment of planning schemes.
+
+12. “planning authority” means an authority assigned by the Government, a Ministry or a provincial People’s Committee to formulate national-level planning schemes, regional planning schemes and provincial planning schemes as prescribed in this Law. Authorities formulating sectoral detailed planning schemes and urban and rural planning schemes shall be determined as prescribed by relevant laws.
+
+13. “authority organizing planning scheme formulation” is the Government, Ministry or provincial People’s Committee which has the responsibility to organize formulation of national-level planning schemes, regional planning schemes and provincial planning schemes as prescribed in this Law. Authorities organizing formulation of sectoral detailed planning schemes and urban and rural planning schemes shall be determined as prescribed by relevant laws.
+
+14. “planning database” means a collection of data from decided or approved planning scheme dossiers, which are arranged and organized to meet the requirements for access, exploitation, sharing, management and updating.
+
+15. “national planning database” means a collection of planning databases, planning-related information and data, which are arranged and organized to meet the requirements for access, exploitation, sharing, management and updating.
+
+16. “national planning information system” means a system comprising hardware, software and national planning database, which is established to serve the purposes of accessing, exploiting, sharing, managing, updating and connecting planning-related information and data nationwide.
+
+17. “planning map” means a map that presents principal contents of a planning scheme at a specified scale. Planned geographical features are shown on the map with an accuracy relative to its scale.
+
+...
+
+...
+
+...
+
+
+
+
+
+19. “planning scheme formulation time” means a period of time beginning from the date on which the planning consultancy is selected to the date on which a planning scheme is submitted for appraisal.
+
+20. “planning period” means a period of time determined as the basis for forecasting, calculation, and selection of socio-economic indicators and techno-economic indicators for the formulation of planning schemes.
+
+21. “planning vision” means long-term strategic objectives and development orientations of a sector or a territory; serves as a basis for harmonizing policies and development solutions toward the goals of sustainable economic, social, and environmental development.
+
+22. “validity period of planning scheme” means a period of time beginning from the date on which a planning scheme is decided or approved to the date on which the planning scheme is adjusted or replaced, or a planning scheme for the subsequent planning period is decided or approved. Validity period of urban and rural planning schemes shall comply with regulations of urban and rural planning law.
+
+Article 4. Basic principles in planning activities
+
+1. Comply with the guidelines and policies of the Communist Party, regulations of this Law, other relevant laws and treaties to which the Socialist Republic of Viet Nam is a signatory.
+
+2. Ensure uniformity and coherence between planning schemes and socio-economic development strategies and plans; ensure the combination of the sectoral management and territorial management.
+
+3. Ensure the compliance, continuity, inheritance, stability and hierarchy in the planning system.
+
+4. Ensure long-term and stable development of the nation; safeguard national interests and enhance national competitiveness; be based on practical, scientific, and objective data, meeting the development requirements of the nation, regions, and localities.
+
+...
+
+...
+
+...
+
+
+
+
+
+6. Ensure scientific soundness, application of modern technology, coherence, connectivity, forecastability, feasibility, thrift and effective use of the country’s resources; ensure objectivity, publicity and transparency.
+
+7. Ensure independence between planning authorities and planning scheme appraisal councils.
+
+8. Provide resources to for the implementation of planning.
+
+9. Ensure uniform state management of planning, appropriate decentralization or delegation of powers among regulatory bodies.
+
+10. Ensure fair competition among all economic sectors in access to business opportunities and resources of the economy; remove market access barriers, create an open and transparent business environment.
+
+Article 5. Planning system
+
+1. The planning system encompasses:
+
+a) National-level planning schemes, including national master planning schemes, national marine spatial planning scheme, national land use planning scheme, sectoral planning schemes;
+
+b) Regional planning schemes. The Government shall determine regions for which planning schemes need to be tailored;
+
+...
+
+...
+
+...
+
+
+
+
+
+d) Sectoral detailed planning schemes;
+
+dd) Urban and rural planning schemes;
+
+e) Special administrative-economic unit planning schemes regulated by the National Assembly.
+
+2. The list sectoral planning schemes and sectoral detailed planning schemes includes the planning schemes specified in the Appendix to this Law.
+
+3. Relationship between types of planning schemes is provided for as follows:
+
+a) The national marine spatial planning scheme must conform to and concretize the national master planning scheme regarding the orientations for national marine spatial development;
+
+b) The national land use planning scheme must conform to and concretize the national master planning scheme regarding the orientations for national land use;
+
+c) A sectoral planning scheme must conform to and concretize the national master planning scheme regarding the orientations for development and organization of space for development of the sector; conform to the national marine spatial planning scheme regarding the orientations for national marine spatial development; conform to the national land use planning scheme regarding the orientations for national land use related to a sector.
+
+The master planning scheme for sustainable exploitation and use of coastal resources must conform to and concretize the national marine spatial planning scheme regarding the orientations for development and arrangement of space for exploitation and use of various types of natural resources and environmental protection within the coastal zone;
+
+...
+
+...
+
+...
+
+
+
+
+
+dd) A sectoral detailed planning scheme must conform to and concretize the planning scheme prescribed in the Appendix to this Law; ensure the connectivity regarding the orientations for spatial arrangement and distribution of the regional planning scheme;
+
+e) Provincial planning schemes and sectoral detailed planning schemes must be mutually connected regarding the orientations for spatial arrangement and distribution, except the planning schemes specified in points i and k of this clause;
+
+g) A provincial planning scheme must conform to and concretize the national master planning scheme and regional planning scheme regarding the orientations for the development, arrangement and distribution of space for economic, social, national defense and security activities, infrastructure, use of natural resources, environmental protection, natural disaster management, biodiversity conservation, natural disaster management and adaptation to climate change in a province;
+
+h) A provincial planning scheme must conform to the sectoral planning scheme regarding the orientations for sectoral development in a province;
+
+i) A provincial land use planning scheme must conform to and concretize the provincial planning scheme regarding the orientations for provincial land use in a province;
+
+k) A planning scheme for monument preservation, remodeling and restoration or archaeological planning scheme must conform to and concretize a provincial planning scheme regarding the orientations for development of protected areas, areas where historical and cultural monuments, scenic landscapes and archaeological areas need to be preserved, remodeled and restored in a province;
+
+l) An urban and rural planning scheme must conform to and concretize the provincial planning scheme regarding the orientations and direction for organization of space for socio-economic development, urban and rural development, development of system of rural and urban areas, functional zones, infrastructure and underground space (if any) for urban areas, rural areas, and functional zones.
+
+Article 6. Principles of determining planning schemes that must be adjusted and planning schemes that are to be implemented in case of contradiction between planning schemes
+
+1. In case the national marine spatial planning scheme or national land use planning scheme contradicts the national master planning scheme, the national marine spatial planning scheme and national land use planning scheme must be adjusted and implemented according to the national master planning scheme.
+
+...
+
+...
+
+...
+
+
+
+
+
+3. Where a regional planning scheme contradicts a sectoral planning scheme, the Prime Minister shall decide the planning scheme that must be adjusted and the planning scheme that is to be implemented.
+
+4. Where a sectoral detailed planning scheme contradicts a planning scheme which concretizes the former, the sectoral detailed planning scheme must be adjusted and implemented according to the concretizing planning scheme.
+
+5. Where sectoral planning schemes contradict each other, sectoral detailed planning schemes contradict each other and sectoral detailed planning schemes contradict sectoral planning schemes which are not concretized planning schemes, the following regulations shall be complied with:
+
+a) Where a Ministry organizes the formulation of planning schemes, the Minister shall decide the planning schemes that must be adjusted and the planning schemes that are to be implemented;
+
+b) Where different Ministries or Ministries and provincial People's Committees organize the formulation of planning schemes, the agency or organization that discovers any contradiction shall petition the relevant authorities organizing planning scheme formulation to review and handle the contradiction; if relevant authorities organizing planning scheme formulation fail to reach an agreement, the Prime Minister shall consider and decide the planning schemes that must be adjusted and planning schemes that are to be implemented;
+
+c) Where planning schemes are subject to approval by Chairpersons of provincial People’s Committees, Chairpersons of provincial People’s Committees shall decide the planning schemes that must be adjusted and the planning schemes that are to be implemented.
+
+6. Where a provincial planning scheme contradicts a national-level planning scheme or regional planning scheme, the provincial planning scheme must be adjusted and implemented according to the national-level planning scheme or regional planning scheme.
+
+7. Where provincial planning scheme and sectoral detailed planning scheme contradict each other, the following regulations shall be complied with:
+
+a) Where the provincial planning scheme and sectoral detailed planning scheme contradict each other, except the case specified in point b of this clause, the authority organizing formulation of the detailed planning scheme shall preside over and cooperate with the authority organizing formulation of the provincial planning scheme in reviewing and agreeing to the planning scheme that must be adjusted and planning scheme that is to be implemented; if the authority organizing formulation of the detailed planning scheme and the authority organizing formulation of the provincial planning scheme fail to reach an agreement, the Prime Minister shall consider and decide the planning scheme that must be adjusted and planning scheme that is to be implemented;
+
+...
+
+...
+
+...
+
+
+
+
+
+8. Where an urban and rural planning scheme contradicts a provincial planning scheme, the urban and rural planning scheme must be adjusted and implemented according to the provincial planning scheme.
+
+9. Where urban and rural planning schemes contradict each other, regulations of the urban and rural planning law shall be complied with.
+
+10. The adjustment of national-level planning schemes, regional planning schemes and provincial planning schemes in case of the contradictions as specified in clauses 1, 2, 3, 5 and 6 and point a clause 7 of this Article shall be made in accordance with the simplified sequence and procedures prescribed in Article 54 of this Law.
+
+11. The Government shall elaborate clause 3, point b clause 5 and point a clause 7 of this Article.
+
+Article 7. Planning period and vision
+
+1. The planning period lasts 10 years, starting on January 01 of a year ending with the digit 1 and concluding on December 31 of a year ending with the digit 0.
+
+2. The planning vision is determined for a period of 30 years from the beginning of the planning period.
+
+3. Urban and rural planning period and vision shall comply with regulations of urban and rural planning law.
+
+Article 8. Planning diagrams, planning maps
+
+...
+
+...
+
+...
+
+
+
+
+
+2. The positional accuracy, boundaries and alignments of planned geographical features shown on a planning diagram or planning map shall be specified as follows:
+
+a) The planning diagram shall illustrate the spatial relationship of planned geographical features in terms of their locations, alignments and boundaries, serving as the basis for the preparation of a planning diagram or planning map for a lower-level planning scheme;
+
+b) The planning map shall illustrate the specific locations, alignments and boundaries of planned geographical features with a level of accuracy corresponding to the map scale in accordance with the law on surveying and mapping and other relevant laws.
+
+3. The Government shall elaborate general technical requirements for planning diagrams and planning maps; list of planning diagrams for national-level planning schemes, regional planning schemes and provincial planning schemes.
+
+4. The Minister of Finance shall provide guidelines on technical requirements and specific contents of diagrams for national-level planning schemes and provincial planning schemes.
+
+5. Ministers shall provide guidelines on technical requirements and specific contents of diagrams and maps for sector detailed planning schemes and urban and rural planning schemes under their management.
+
+Article 9. Sequence of formulating, appraising, deciding or approving and announcing planning schemes
+
+1. The sequence of formulating, appraising, deciding and announcing national master planning scheme, national marine spatial planning scheme and national land use planning scheme is as follows:
+
+a) The planning authority shall preside over and cooperate with Ministries, ministerial agencies and relevant localities in preparing an outline for formulation of the planning scheme (hereinafter referred to as “planning outline”) for submission to the Government for its decision;
+
+...
+
+...
+
+...
+
+
+
+
+
+c) Ministries, ministerial agencies and localities concerned shall contribute their opinions, propose contents under their management and send them to the planning authority;
+
+d) The planning authority shall preside over and cooperate with Ministries, ministerial agencies and relevant localities in considering and addressing cross-sectoral, inter-regional and inter-provincial issues in order to ensure the uniformity, coherence and effectiveness of the planning scheme.
+
+dd) The planning authority shall complete contents of the planning scheme and send them for seeking of opinions as prescribed in Article 23 of this Law;
+
+e) The planning authority shall accept and explain opinions, complete contents of the planning scheme and submit them to the planning scheme appraisal council;
+
+g) The planning authority shall complete contents of the planning scheme according to appraisal opinions of the planning scheme appraisal council and report them to the Government for its consideration and submission to the National Assembly for decision;
+
+h) The planning authority shall organize the announcement and disclosure of the planning scheme as prescribed in Articles 41, 42 and 43 of this Law.
+
+2. The sequence of formulating, appraising, approving and announcing a regional planning scheme is as follows:
+
+a) The authority organizing planning scheme formulation shall preside over and cooperate with Ministries, ministerial agencies and localities in the region in preparing a planning outline for submission to the Prime Minister for his approval;
+
+b) The planning authority shall prepare contents of the planning scheme and report them to the authority organizing planning scheme formulation in order for it to send them to Ministries, ministerial agencies and localities in the region for seeking of their opinions;
+
+...
+
+...
+
+...
+
+
+
+
+
+d) The authority organizing planning scheme formulation shall preside over and cooperate with Ministries, ministerial agencies and localities in the region in considering and addressing cross-sectoral and inter-provincial issues in order to ensure the uniformity, coherence and effectiveness of the planning scheme;
+
+dd) The authority organizing planning scheme formulation shall complete contents of the planning scheme and send them for seeking of opinions as prescribed in Article 23 of this Law;
+
+e) The authority organizing planning scheme formulation shall accept and explain opinions, complete contents of the planning scheme and submit them to the planning scheme appraisal council;
+
+g) The authority organizing planning scheme formulation shall complete contents of the planning scheme according to appraisal opinions of the planning scheme appraisal council and submit them to the Prime Minister for his consideration and approval;
+
+h) The authority organizing planning scheme formulation shall organize the announcement of the planning scheme as prescribed in Articles 41, 42 and 43 of this Law.
+
+3. The sequence of formulating, appraising, approving, announcing and disclosing a provincial planning scheme is as follows:
+
+a) The planning authority shall preside over and cooperate with related agencies and organizations in preparing a planning outline for submission to the provincial People's Committee for its approval;
+
+b) The planning authority shall preside over and cooperate with related agencies and organizations in establishing a provincial development orientation framework, which includes analysis, assessment, and forecasting of factors, conditions, resources, development context, assessment of current local socio-economic development, proposed guiding viewpoints, objectives and orientations given development priority to serve as a basis for formulating the planning scheme; send it to specialized agencies under the provincial People’s Committee for their opinions and proposed contents under their management; to commune-level People’s Committees, agencies and organizations concerned within the province for their opinions;
+
+c) Specialized agencies under the provincial People’s Committee shall propose contents under their management and submit them to the planning authority, commune-level People’s Committees, agencies and organizations concerned within the province for their opinions the contents of the provincial planning scheme and send them to the planning authority;
+
+...
+
+...
+
+...
+
+
+
+
+
+dd) The planning authority shall complete contents of the planning scheme, report them to the authority organizing planning scheme formulation so as for it to send them for opinions as prescribed in Article 23 of this Law;
+
+e) The planning authority shall preside over and cooperate with related agencies and organizations, and commune-level People's Committees in accepting and explaining opinions and perfecting contents of the planning scheme, and submit them to the planning scheme appraisal council;
+
+g) The planning authority shall perfect contents of the planning scheme according to appraisal opinions of the planning scheme appraisal council and submit them to the provincial People’s Committee;
+
+h) The provincial People’s Committee shall submit the planning scheme to the provincial People's Council for its consideration and approval before submitting it to the Chairperson of the provincial People's Committee for approval; organize the announcement and disclosure of the planning scheme as prescribed in Articles 41, 42 and 43 of this Law.
+
+4. The sequence of formulating, appraising and approving sectoral detailed planning schemes and urban and rural planning schemes shall comply with relevant laws.
+
+5. The announcement of sectoral detailed planning schemes and urban and rural planning schemes shall comply with this Law and other relevant laws.
+
+6. The Government shall stipulate the sequence of formulating, appraising, approving and announcing sectoral planning schemes; elaborate clauses 1, 2 and 3 of this Article.
+
+Article 10. Costs of planning
+
+1. Costs of formulation, announcement and adjustment of planning schemes shall be covered by public investment capital as per regulations of law on public investment, funding for covering recurrent expenditures according to regulations of law on state budget, financial support from organizations and individuals and other lawful funding sources.
+
+...
+
+...
+
+...
+
+
+
+
+
+3. The Government shall elaborate on the mobilization and use of resources for support for planning activities from organizations and individuals.
+
+4. The Minister of Finance shall provide guidelines for norms for planning activities and the management and use of costs of planning.
+
+Article 11. State policies on planning activities
+
+1. The State shall manage socio-economic development, ensure national defense and security and environmental protection according to the decided or approved planning schemes.
+
+2. The State shall promulgate mechanisms and policies to encourage and mobilize resources to promote application of the world’s advanced scientific and technological achievements and accelerate digital transformation; promote sustainable development associated with environmental protection and adaptation to climate change in planning activities.
+
+3. The State shall promulgate mechanisms and policies to encourage domestic and foreign organizations and individuals to provide resources for planning activities so as to ensure the objectivity, publicity and transparency.
+
+4. The State shall promulgate mechanisms and policies to support the creation, updating, sharing, exploitation of information and data through the national planning information system.
+
+5. The State shall promulgate mechanisms and policies to encourage and enable organizations and individuals of all economic sectors to participate in planning activities.
+
+6. The State shall promulgate mechanisms and policies to boost international cooperation in planning activities.
+
+...
+
+...
+
+...
+
+
+
+
+
+1. The Government shall perform uniform state management of planning nationwide.
+
+2. The Ministry of Finance shall act as a conduit to assist the Government in state management of planning.
+
+3. Ministries and People’s Committees at all levels shall perform state management of planning within the bounds of their assigned tasks and powers.
+
+Article 13. Inspection of planning activities
+
+1. Authority to inspect planning activities:
+
+a) The Ministry of Finance shall inspect planning activities for sectoral planning schemes, regional planning schemes, provincial planning schemes; report inspection results to the Prime Minister;
+
+b) The authority to inspect planning activities for sectoral detailed planning schemes and urban and rural planning schemes shall comply with relevant laws.
+
+2. The inspection of planning activities for sectoral planning schemes, regional planning schemes and provincial planning schemes shall cover the adherence to sequence of and procedures for formulation, appraisal, approval, announcement, implementation and adjustment of planning schemes and contents of planning schemes as per the planning law.
+
+3. The Government shall elaborate the sequence of and procedures for inspection planning activities for sectoral planning schemes, regional planning schemes, provincial planning schemes, and responsibilities of related agencies, organizations and individuals.
+
+...
+
+...
+
+...
+
+
+
+
+
+1. Ministries, ministerial agencies and provincial People’s Committees shall submit reports on planning activities to the Ministry of Finance before October 31 for consolidation and reporting to the Government before every December 31.
+
+2. The Government shall submit a report on planning activities to the National Assembly every 05 years.
+
+Article 15. Supervision of planning activities
+
+1. The supervision of planning activities by the National Assembly and People’s Councils shall comply with regulations of law on supervisory activities of the National Assembly and People’s Councils.
+
+2. The supervision of planning activities by the Vietnam Fatherland Front shall comply with regulations of law on Vietnam Fatherland Front.
+
+3. The supervision of planning activities by organizations and individuals shall comply with regulations of law on implementation of grassroots democracy and law on access to information.
+
+Article 16. Prohibited acts in planning activities
+
+1. Formulating, appraising, deciding or approving, announcing, providing information on, implementing, assessing and adjusting planning schemes in contravention of this Law.
+
+2. Formulating, appraising, deciding or approving, adjusting planning schemes for investment in development of specific goods, services and products; imposing fixed volume and quantity of goods, services, and products to be produced and sold; pre-selection of investors.
+
+...
+
+...
+
+...
+
+
+
+
+
+Chapter II
+
+FORMULATION OF PLANNING SCHEMES
+
+Section 1. ORGANIZING FORMULATION OF PLANNING SCHEMES
+
+Article 17. Authority to organize formulation of planning schemes
+
+1. The Government shall organize formulation of national master planning scheme, national marine spatial planning scheme and national land use planning scheme.
+
+2. Ministries shall organize formulation of sectoral planning schemes and regional planning schemes as prescribed by the Government.
+
+3. Provincial People’s Committees shall organize formulation of provincial planning schemes.
+
+4. The authority to organize formulation of sectoral detailed planning schemes and urban and rural planning schemes shall comply with relevant laws.
+
+Article 18. Simultaneous formulation of planning schemes
+
+...
+
+...
+
+...
+
+
+
+
+
+2. In the case of implementing a special public investment project or urgent public investment project in accordance with the law on public investment; another project under the direction of the Politburo, the Secretariat of the Central Committee of the Communist Party of Vietnam or the Government’s Party Committee, the planning scheme related to such project may be formulated simultaneously with another planning scheme.
+
+Article 19. Bases for formulating planning schemes
+
+1. Socio-economic development strategies, field and sector development strategies during the same development period (if any).
+
+2. Planning schemes of the previous period.
+
+3. Relevant planning schemes (if any).
+
+4. Sectoral detailed planning schemes and urban and rural planning schemes formulated as per this Law and other relevant laws.
+
+Article 20. Planning outlines
+
+1. A planning outline primarily comprises the following:
+
+a) Necessity of formulating the planning scheme; bases for formulating the planning scheme; orientations and requirements of relevant planning schemes and concretized planning schemes for the planning scheme to be formulated (if any);
+
+...
+
+...
+
+...
+
+
+
+
+
+c) Requirements for contents of the planning scheme; planning scheme dossier;
+
+d) Planning scheme formulation time and progress;
+
+dd) Responsibilities of related agencies, organizations and individuals for planning scheme formulation.
+
+2. Authority to organize formulation and approval of the planning outline is as follows:
+
+a) An authority formulating the national master planning scheme, national marine spatial planning scheme or national land use planning scheme shall prepare a planning outline and submit it to the Government for its decision;
+
+b) An authority organizing formulation of a regional planning scheme shall prepare a planning outline and submit it to the Prime Minister for his approval;
+
+c) An authority formulating a sectoral planning scheme shall prepare a sectoral planning outline, report it to the authority organizing planning scheme formulation, submit it to an authority or person competent to approve planning schemes for its consideration and approval of the sectoral planning outline;
+
+d) An authority organizing formulation of a provincial planning scheme shall organize preparation and approval of a provincial planning outline.
+
+3. Tasks of formulating sectoral detailed planning schemes (if any) and urban and rural planning schemes shall comply with relevant laws.
+
+...
+
+...
+
+...
+
+
+
+
+
+Article 21. Planning consultancies
+
+1. The selection of consultancies giving advice on formulation of national-level planning schemes, regional planning schemes and provincial planning schemes shall be made as prescribed by the bidding law.
+
+2. The selection of consultancies giving advice on formulation of sectoral detailed planning schemes and urban and rural planning schemes shall comply with relevant laws.
+
+3. The selection of foreign consultancies giving advice on formulation of planning schemes shall satisfy requirements for protection of state secrets, ensure national defense and security and suit the capacity for balancing resources.
+
+4. Consultancies giving advice on formulation of national-level planning schemes, regional planning schemes and provincial planning schemes must have juridical personality and satisfy qualification requirements appropriate to the tasks undertaken in accordance with Government’s regulations.
+
+5. The head of an authority formulating national master planning scheme, national marine spatial planning scheme, national land use planning scheme or sectoral planning scheme and the head of an authority organizing formulation of a sectoral planning scheme or regional planning scheme shall fulfill responsibility of a person having power over organization of bidding for selection of a planning consultancy as prescribed by the bidding law.
+
+Article 22. Strategic environmental assessment during planning scheme formulation
+
+1. The preparation of a strategic environmental assessment report for a planning scheme required to undergo strategic environmental assessment shall comply with the law on environmental protection, unless the planning scheme is adjusted according to the simplified sequence and procedures prescribed in Article 54 of this Law.
+
+2. The strategic environmental assessment report shall be prepared and appraised together with the formulation and appraisal of the planning scheme.
+
+...
+
+...
+
+...
+
+
+
+
+
+1. Responsibility for seeking opinions on planning schemes:
+
+a) Planning authorities shall seek opinions on the national master planning scheme, national marine spatial planning scheme and national land use planning scheme;
+
+b) Authorities organizing planning scheme formulation shall seek opinions on sectoral planning schemes, regional planning schemes and provincial planning schemes;
+
+c) Responsibility for seeking opinions about sectoral detailed planning schemes and urban and rural planning schemes shall comply with relevant laws.
+
+2. The seeking of agencies, organizations, communities and individuals about planning schemes shall adhere to the following regulations:
+
+a) For national-level planning schemes, regional planning schemes and provincial planning schemes, opinions thereon shall be sought by sending written documents and posting planning schemes on websites of authorities organizing planning scheme formulation or planning authorities and national planning information system, ensuring conformity with regulations of law on protection of state secrets;
+
+b) For sectoral detailed planning schemes and urban and rural planning schemes formulated, opinions thereon shall be sought as prescribed in point a of this clause and other relevant laws.
+
+3. Authorities organizing planning scheme formulation or planning authorities shall publish opinions and the acceptance of and explanation for opinions on their websites and national planning information system, except contents classified as state secrets according to regulations of law on protection of state secrets.
+
+4. The Government shall elaborate on the seeking of opinions on each type of planning scheme specified in point a clause 2 of this Article.
+
+...
+
+...
+
+...
+
+
+
+
+
+Article 24. Requirements for contents of planning schemes
+
+1. Ensure the fulfillment of the goals of rapid and sustainable development in association with environmental protection, natural disaster management, adaptation to climate change, and assurance of national defense and security; ensure the development of infrastructure and urban and rural development in association with the preservation of identity, landscapes, and community cultural spaces; allocate, exploit and use natural resources in a reasonable and efficient manner and conserve historical and cultural sites and monuments, cultural heritage sites and natural heritage sites.
+
+2. Ensure harmony of interests of the nation, regions, localities and the people, enterprises, with the national interests being paramount.
+
+3. Ensure connection, uniformity and systematism among sectors, regions and localities, exploit and use the existing infrastructure at the maximum; fully exploit potential and strengths of each region and locality in association with social progress and equality, ensure social security and national defense and security.
+
+4. Maintain a balance among socio-economic, national defense, security and environmental protection elements during the process of planning scheme formulation.
+
+5. Minimize adverse impacts on the livelihoods of the people, the elderly, persons with disabilities, ethnics, women and children; be combined with policies to promote the development and ensure sustainable livelihoods of the people in mountainous areas, islands, ethnic minority areas, disadvantaged areas and extremely disadvantaged areas
+
+6. Ensure scientific soundness, application of technologies, satisfaction of standards and technical regulations and conformity with requirements for development and international integration of the country.
+
+Article 25. Contents of national master planning scheme
+
+1. The national master planning scheme primarily comprises the following:
+
+...
+
+...
+
+...
+
+
+
+
+
+b) Construction and selection of development scenarios;
+
+c) Development viewpoints, vision and objectives;
+
+d) Key tasks and development breakthroughs during the planning period;
+
+dd) Orientations for organizing development space, including dynamic regions, national growth poles; economic corridors; territories requiring conservation or restricted development;
+
+e) Orientations for development of sectors and fields of national importance;
+
+g) Orientations for marine spatial development;
+
+h) Orientations for national land use by each region;
+
+i) Orientations for regional development and inter-regional connection;
+
+k) Orientations for urban system development;
+
+...
+
+...
+
+...
+
+
+
+
+
+m) Orientations for environmental protection and biodiversity conservation; exploitation, use and protection of natural resources; natural disaster management and adaptation to climate change;
+
+n) Solutions and estimated resources for implementation of the planning scheme.
+
+2. The Government shall elaborate this Article.
+
+Article 26. Contents of national marine spatial planning scheme
+
+1. The national marine spatial planning scheme primarily comprises the following:
+
+a) Analysis and assessment of natural conditions, resources, context having direct impacts on and current use of space and resources of the sea and islands by activities for carrying in coastal areas, on islands and in territorial waters that belong to sovereignty, sovereign rights and national jurisdiction of Vietnam;
+
+b) Forecasting of changes in natural resources and environment, impacts of climate change on natural resources and environment; demands for exploitation and use of resources of sea and islands and requirements for environmental protection in coastal areas, on islands and in territorial waters that belong to sovereignty, sovereign rights and national jurisdiction of Vietnam during the planning period;
+
+c) Forecasting of development context and scenarios; evaluation of opportunities for and challenges to activities requiring the use of natural resources of sea and islands;
+
+d) Development viewpoints, vision and objectives;
+
+...
+
+...
+
+...
+
+
+
+
+
+e) Solutions and estimated resources for implementation of the planning scheme.
+
+2. The Government shall elaborate this Article.
+
+Article 27. Contents of national land use planning scheme
+
+1. The national land use planning scheme primarily comprises the following:
+
+a) Analysis and assessment of natural conditions, resources, context having direct impacts on and current use of land by sectors and fields;
+
+b) Forecasting of trends in changes in land use;
+
+c) Viewpoints, vision and objectives for land use during the planning period;
+
+d) Orientations for national land use, orientations for land use by regions in response to the demands for use of land for socio-economic development; national defense and security assurance; environmental protection, adaptation to climate change;
+
+dd) Determination of land use quotas during the planning period for agricultural land category, non-agricultural land category; including determination of the area of rice cultivation land, special-use forest land, protection forest land, natural production forest land, national defense land or security land;
+
+...
+
+...
+
+...
+
+
+
+
+
+2. The Government shall elaborate this Article.
+
+Article 28. Contents of sectoral planning schemes
+
+1. Contents of the infrastructure sector planning scheme primarily comprises the following:
+
+a) Analysis and assessment of natural conditions, status of development of national-level infrastructure of an inter-regional or inter-provincial nature; distribution and use of infrastructural space; analysis and forecasting of domestic and international development trends; analysis and forecasting of development resources;
+
+b) Determination of socio-economic development requirements for the sector; development opportunities for and challenges to the sector;
+
+c) Development viewpoints, vision and objectives;
+
+d) Orientations for the development of the system of infrastructure of national importance and cross-sectoral, inter-regional or inter-provincial nature nationwide;
+
+dd) Orientations for allocation and use of land for infrastructure development;
+
+e) Solutions and estimated resources for implementation of the planning scheme.
+
+...
+
+...
+
+...
+
+
+
+
+
+a) Orientations for use of national defense or security land;
+
+b) Determination of demand for use of national defense or security land during the land use planning period in accordance with the national master planning scheme; national defense or security tasks and the national socio-economic development plan;
+
+c) Phasing of the national defense/security land use planning for each 05-year plan period;
+
+d) Solutions and estimated resources for implementation of the planning scheme.
+
+3. The water resource, irrigation and natural disaster management planning scheme primarily comprises the following:
+
+a) Analysis and assessment of natural conditions and resources; investigation and survey of the current situation and assessment of impacts of exploitation and use of water resources; current conditions of irrigation infrastructure and natural disaster management infrastructure nationwide;
+
+b) Analysis and assessment of socio-economic development policies and orientations related to the exploitation and use of water resources, irrigation infrastructure, and natural disaster management infrastructure;
+
+c) Forecasting of development trends, development scenarios, scientific and technological advances, and socio-economic development affecting the protection, exploitation, and use of water resources, irrigation infrastructure, and disaster management infrastructure during the planning period;
+
+d) Assessment of sectoral and regional connections; determination of socio-economic development requirements, opportunities for and challenges to the development of irrigation infrastructure and natural disaster management infrastructure;
+
+...
+
+...
+
+...
+
+
+
+
+
+e) Orientations for the regulation, allocation, exploitation, use, and protection of water resources, and prevention of, response to and recovery from damage caused by water;
+
+g) Orientations for the development of the system of irrigation infrastructure and natural disaster management infrastructure nationwide and in regions;
+
+h) Orientations for allocation and use of land for the development of national irrigation and natural disaster management infrastructure;
+
+i) Orientations for environmental protection and adaptation to climate change;
+
+k) Solutions and estimated resources for implementation of the planning scheme.
+
+4. The planning scheme for use of other natural resources primarily comprises the following:
+
+a) Analysis and assessment of socio-economic development policies and orientations and planning schemes related to the protection, exploitation and use of natural resources;
+
+b) Assessment of impacts of the exploitation and use of natural resources;
+
+c) Forecasting of scientific and technological advances and socio-economic development affecting the protection, exploitation, and use of water resources during the planning period;
+
+...
+
+...
+
+...
+
+
+
+
+
+dd) Determination of areas proposed for exploitation and use of natural resources; areas requiring protection and strict management (if any);
+
+e) Orientations for environmental protection, natural disaster management and adaptation to climate change;
+
+g) Solutions and estimated resources for implementation of the planning scheme.
+
+5. An environmental protection planning scheme primarily comprises the following:
+
+a) Assessment of status and trends of environmental quality, natural landscapes and biodiversity; status and forecasting of waste generation; impacts of climate change; status of environmental management and protection;
+
+b) Viewpoints, vision, objectives, tasks, and solutions for environmental protection;
+
+c) Environmental zoning; nature and biodiversity conservation; waste management; environmental monitoring and warning;
+
+d) Solutions and estimated resources for implementation of the planning scheme.
+
+6. A biodiversity conservation planning scheme primarily comprises the following:
+
+...
+
+...
+
+...
+
+
+
+
+
+b) Viewpoints, vision, objectives, tasks, and solutions for biodiversity conservation;
+
+c) High biodiversity areas; important ecological landscapes; wildlife sanctuaries; biodiversity corridors; biodiversity conservation authorities; important wetlands;
+
+d) Solutions and estimated resources for implementation of the planning scheme.
+
+7. A hydrometeorological station network planning scheme primarily comprises the following:
+
+a) Analysis and assessment of natural, socio-economic, and environmental conditions, status of hydrometeorological monitoring activities and adaptation to climate change; demand for hydrometeorological information and data for socio-economic development, national defense and security, natural disaster management and adaptation to climate change;
+
+b) Assessment of status of climate change monitoring; spatial and temporal variability of hydrometeorological elements to be monitored; impacts of science and technology development; sectoral and regional connections in the development of the national hydrometeorological station network;
+
+c) Forecasting of development trends, development scenarios, climate change, scientific and technological advances and socio-economic development affecting the national hydrometeorological station network;
+
+d) Viewpoints, vision, objectives, tasks and solutions for development of the national hydrometeorological station network;
+
+dd) Orientations for development of the national hydrometeorological station network;
+
+...
+
+...
+
+...
+
+
+
+
+
+8. The Government shall elaborate this Article.
+
+Article 29. Contents of sectoral planning schemes
+
+1. Contents of a regional planning scheme shall reflect the development orientations determined in the national-level planning scheme; directions for spatial development and organization of, and allocation of resources for economic, social, national defense and security activities, urban and rural systems, infrastructure, natural resource use, and environmental protection of an inter-sectoral and inter-provincial nature.
+
+2. A regional planning scheme primarily comprises the following:
+
+a) Analysis and assessment of natural conditions, status of regional development; analysis and forecasting of region-specific resources and domestic and international development trends affecting regional development;
+
+b) Construction and selection of development scenarios;
+
+c) Development viewpoints, vision and objectives;
+
+d) Key tasks and development breakthroughs during the planning period;
+
+dd) Directions for development of sectors in which the region has advantages; orientations for organizing space for socio-economic development of the region; orientations for regional and inter-provincial development;
+
+...
+
+...
+
+...
+
+
+
+
+
+g) Directions for development of functional zones and other areas;
+
+h) Directions for development of technical infrastructure for inter-provincial connection, including transport network, telecommunications infrastructure, hydraulic structures, water supply systems, and other technical infrastructure;
+
+i) Orientations for environmental protection and biodiversity conservation; exploitation, use and protection of natural resources; natural disaster management and adaptation to climate change in the region;
+
+k) Solutions and estimated resources for implementation of the planning scheme.
+
+3. The Government shall elaborate clause 2 of this Article.
+
+Article 30. Contents of provincial planning schemes
+
+1. Contents of a provincial planning scheme shall reflect the development orientations determined in the national-level planning scheme; development directions determined in the regional planning scheme; orientations for spatial development and organization of, and allocation of resources for socio-economic development, national defense and security, urban and rural areas, infrastructure, natural resource use, and environmental protection at provincial and inter-communal levels.
+
+2. A provincial planning scheme primarily comprises the following:
+
+a) Analysis and assessment of natural conditions and specific development conditions of the province; analysis and assessment of status of socio-economic development, current use of land, status of urban and rural systems; status of technical infrastructure, social infrastructure, underground space; state of the environment, current exploitation, use and protection of natural resources and biodiversity;
+
+...
+
+...
+
+...
+
+
+
+
+
+c) Development viewpoints, vision and objectives;
+
+d) Key tasks and development breakthroughs during the planning period;
+
+dd) Directions for organization of space for socio-economic development; orientations for development of fields and sectors;
+
+e) Directions for urban and rural development;
+
+g) Orientations for development of functional zones; orientations for development of industrial clusters and concentrated agricultural production zones; orientations for development of mountainous areas, islands, ethnic minority areas, disadvantaged areas, extremely disadvantaged areas (if any);
+
+h) Orientations for development of provincial- and inter-communal technical infrastructure;
+
+i) Orientations for development of provincial- and inter-communal social infrastructure;
+
+k) Orientations for underground space development (if any);
+
+l) Orientations for land use in the province;
+
+...
+
+...
+
+...
+
+
+
+
+
+n) Solutions and estimated resources for implementation of the planning scheme.
+
+3. A provincial planning scheme tailored for a city primarily comprises the following:
+
+a) The contents specified in points a, b, c, d, dd, g, h, i, l, m and n clause 2 of this Article;
+
+b) Directions for urban and rural system development.
+
+4. The Government shall elaborate clause 2 and clause 3 of this Article.
+
+Article 31. Contents of sectoral detailed planning schemes and urban and rural planning schemes
+
+Contents of sectoral detailed planning schemes and urban and rural planning schemes are specified in points dd, e, i, k and l clause 3 Article 5 and Article 24 of this Law and shall comply with other relevant laws.
+
+Chapter III
+
+APPRAISAL, DECISION ON OR APPROVAL OF PLANNING SCHEMES
+
+...
+
+...
+
+...
+
+
+
+
+
+Article 32. Authority to establish planning scheme appraisal councils
+
+1. The Prime Minister shall establish an appraisal council for national master planning scheme, national marine spatial planning scheme, national land use planning scheme and regional planning schemes.
+
+2. Authorities and persons competent to approve planning schemes shall establish a sectoral planning scheme appraisal council.
+
+3. Chairpersons of provincial People’s Committees shall establish provincial planning scheme appraisal councils.
+
+4. The authority to establish sectoral detailed planning scheme and urban and rural planning scheme appraisal councils shall comply with relevant laws.
+
+Article 33. Planning scheme appraisal councils
+
+1. An appraisal council for national-level planning schemes, regional planning schemes and provincial planning schemes shall be composed of a Chair, Deputy Chair(s) and members. Members of the council are representatives of Ministries, ministerial agencies, local governments, agencies, organizations concerned and experts being reviewers.
+
+2. Composition of the appraisal council for sectoral detailed planning schemes and urban and rural planning schemes shall comply with relevant laws.
+
+3. A planning scheme appraisal council shall operate on a collective basis and appraise planning schemes according to its assigned tasks.
+
+...
+
+...
+
+...
+
+
+
+
+
+4. The Government shall elaborate on the composition and operation of the appraisal council for national-level planning schemes, regional planning schemes and provincial planning schemes.
+
+Article 34. Application dossiers submitted for planning scheme appraisal
+
+1. An application dossier submitted for appraisal of a national-level planning scheme, regional planning scheme or provincial planning scheme shall include the following main documents:
+
+a) A proposal;
+
+b) An explanatory report to the planning scheme;
+
+c) A draft of the decision on or written approval of the planning scheme;
+
+d) Planning diagrams, planning database;
+
+dd) A strategic environmental assessment report (if any);
+
+e) A report on consolidation, explanation for and acceptance of opinions from agencies, organizations, communities and individuals about the planning scheme.
+
+...
+
+...
+
+...
+
+
+
+
+
+3. Application dossiers submitted for appraisal of sectoral detailed planning schemes and urban and rural planning schemes shall comply with relevant laws.
+
+4. The Government shall elaborate the formality of application dossiers submitted for planning scheme appraisal as specified in clause 1 of this Article.
+
+Article 35. Contents of appraisal of planning schemes
+
+1. Upon appraisal of national-level planning schemes, regional planning schemes and provincial planning schemes, it is required to focus on the following contents:
+
+a) Compliance with the sequence of planning scheme formulation prescribed in Article 9 of this Law;
+
+b) Consistency and coherence with relevant planning schemes;
+
+c) Conformity of the planning schemes with regulations laid down under Section 2 Chapter II of this Law;
+
+d) Uniformity and coherence in addressing cross-sectoral, inter-regional and inter-provincial issues according to the planning integration method.
+
+2. For sectoral detailed planning schemes and urban and rural planning schemes, contents of appraisal shall include those specified in point b clause 1 of this Article and other relevant laws.
+
+...
+
+...
+
+...
+
+
+
+
+
+Article 36. Authority to decide or approve planning schemes
+
+1. The National Assembly shall decide national master planning scheme, national marine spatial planning scheme and national land use planning scheme.
+
+2. The Prime Minister shall approve regional planning schemes.
+
+3. The Government shall regulate the authority to approve sectoral planning schemes.
+
+4. Ministers shall approve sectoral detailed planning schemes, except the planning schemes specified in clause 5 of this Article.
+
+5. Chairpersons of provincial People’s Committees shall approve provincial planning schemes, land use planning schemes, archaeological planning schemes and planning schemes for preservation, remodeling and restoration of monuments of national monument cluster or cluster of national and provincial monuments under their management.
+
+6. The authority to approve urban and rural planning schemes shall comply with regulations of urban and rural planning law.
+
+Article 37. Order of decision on or approval of planning schemes
+
+1. The national marine spatial planning scheme, national land use planning scheme, sectoral planning schemes and regional planning schemes shall be decided or approved after the national master planning scheme.
+
+...
+
+...
+
+...
+
+
+
+
+
+2. A provincial planning scheme shall be approved after a regional planning scheme.
+
+3. A sectoral detailed planning scheme shall be approved after the planning scheme that concretizes the former.
+
+4. An urban and rural planning scheme shall be approved as follows:
+
+a) A general planning scheme or zoning planning scheme in the case where a general planning scheme is not required to be formulated under the urban and rural planning law shall be approved after the provincial planning scheme is approved;
+
+b) The order of approving the urban and rural planning scheme shall comply with regulations of urban and rural planning law, except the case specified in point a of this clause.
+
+5. In the case of implementing a special public investment project or urgent public investment project in accordance with the law on public investment; another project under the direction of the Politburo, the Secretariat of the Central Committee of the Communist Party of Vietnam or the Government’s Party Committee, the planning scheme related to such project may be approved before the relevant planning scheme.
+
+Article 38. Application dossiers submitted for decision on or approval of planning schemes
+
+1. An application dossier submitted for decision on or approval of a national-level planning scheme, regional planning scheme or provincial planning scheme shall consist of:
+
+a) A proposal;
+
+...
+
+...
+
+...
+
+
+
+
+
+c) A draft of the decision on or written approval of the planning scheme;
+
+d) Planning diagrams, planning database;
+
+dd) A report on consolidation, explanation for and acceptance of opinions from agencies, organizations, communities and individuals about the planning scheme;
+
+e) A strategic environmental assessment report (if any);
+
+g) A planning scheme appraisal report;
+
+h) A report on explanation for and acceptance of appraisal opinions.
+
+2. Application dossiers submitted for approval of sectoral detailed planning schemes and urban and rural planning schemes shall comply with relevant laws.
+
+3. The Government shall elaborate the formality of application dossiers submitted for decision on or approval of planning schemes as specified in clause 1 of this Article.
+
+Article 39. Sequence of and procedures for deciding national master planning scheme, national marine spatial planning scheme, national land use planning scheme
+
+...
+
+...
+
+...
+
+
+
+
+
+2. The verifying agency is entitled to request the Government and relevant agencies, organizations and individuals to report on issues concerning the planning scheme. The requested agencies, organizations and individuals shall provide full information and documents to serve the verification.
+
+3. The verification shall focus on the following contents:
+
+a) Conformity of contents of the planning scheme with the guidelines and policies of the Communist Party; constitutionality and legality; uniformity within the planning system; compatibility with treaties to which the Socialist Republic of Viet Nam is a signatory;
+
+b) Conformity of the planning schemes with regulations laid down under Articles 24, 25, 26 and 27 of this Law;
+
+c) Feasibility of the planning scheme and the conditions for providing human resources and financial resources for its implementation.
+
+4. The National Assembly shall consider and approve a Resolution on national master planning scheme, national marine spatial planning scheme and national land use planning scheme.
+
+Article 40. Contents of decision on or approval of planning schemes
+
+1. Contents of decision on or approval of national-level planning schemes, regional planning schemes and provincial planning schemes primarily includes those stipulated in points c, d, e, g, h, i, k, l, m, and n clause 1 of Article 25; points d, e, and e clause 1 of Article 26; points c, d, e, and e clause 1 of Article 27; points c, d, e, and e clause 1 and clause 2, points d, e, g, h, i, and k clause 3, points d, e, and g clause 4, points b, c, and d clause 5, points b, c, and d clause 6, points d, e, and e of clause 7 of Article 28; points c, d, e, g, h, i, and k clause 2 of Article 29; points c, d, e, g, h, i, k, l, m, and n clause 2 of Article 30.
+
+2. Contents of approval of sectoral detailed planning schemes and urban and rural planning schemes shall comply with relevant laws.
+
+...
+
+...
+
+...
+
+
+
+
+
+ANNOUNCEMENT, PROVISION OF INFORMATION ON AND IMPLEMENTATION OF PLANNING SCHEMES
+
+Section 1. ANNOUNCEMENT AND PROVISION OF INFORMATION ON PLANNING SCHEMES
+
+Article 41. Requirements for announcement and disclosure of planning schemes
+
+1. A planning scheme must be announced and disclosed after it is decided or approved by a competent authority or competent person, except contents classified as state secrets in accordance with regulations of law on protection of state secrets.
+
+2. The announcement and disclosure of the planning scheme must adhere to the following principles:
+
+a) In a timely, complete and convenient manner, facilitating access by organizations and individuals;
+
+b) Being authenticated, ensuring integrity, safety and cybersecurity;
+
+c) Being synchronized with the national planning information system.
+
+3. The Government shall elaborate on time limit for announcing and disclosing national-level planning schemes, regional planning schemes and provincial planning schemes.
+
+...
+
+...
+
+...
+
+
+
+
+
+Article 42. Responsibility for organizing announcement and disclosure of planning schemes
+
+1. Planning authorities shall organize announcement and disclosure of the national master planning scheme, national marine spatial planning scheme and national land use planning scheme.
+
+2. Authorities organizing planning scheme formulation shall organize announcement and disclosure of sectoral planning schemes, regional planning schemes and provincial planning schemes.
+
+3. Responsibility for announcing and disclosing sectoral detailed planning schemes and urban and rural planning schemes shall comply with relevant laws.
+
+Article 43. Methods of announcement and disclosure of planning schemes
+
+1. Announce and disclose decisions on or written approvals of planning schemes, planning maps and diagrams on the national planning information system and websites of authorities organizing planning scheme formulation or planning authorities, except contents classified as state secrets according to regulations of law on protection of state secrets.
+
+2. Display planning maps and diagrams at authorities organizing planning scheme formulation or planning authorities or public places in areas covered by planning schemes.
+
+3. Update planning database on the national planning information system.
+
+4. Organize conferences or workshops to announce planning schemes (if any).
+
+...
+
+...
+
+...
+
+
+
+
+
+6. Other methods that facilitate public access to planning information.
+
+7. Sectoral detailed planning schemes and urban and rural planning schemes shall be announced and disclosed by the methods specified in this Article and other relevant laws.
+
+Article 44. National planning information system
+
+1. The national planning information system is developed and operated nationwide to serve the state management of planning by way of applying modern technologies with the aim of developing a uniform and efficient national digital space based on data and digital technology.
+
+2. The national planning information system shall comprise the following basic components:
+
+a) Information technology technical infrastructure;
+
+b) Software of the national planning information system;
+
+c) National planning database.
+
+3. The provision, exchange, exploitation, and use of planning information and data on the national planning information system shall comply with the law on access to information, law on protection of state secrets, and other relevant laws.
+
+...
+
+...
+
+...
+
+
+
+
+
+a) The Prime Minister shall direct and coordinate the building of the national planning information system;
+
+b) The Ministry of Finance shall preside over and cooperate with Ministries, ministerial agencies, Governmental agencies, and People’s Committees at all levels in organizing the building, management, operation, and exploitation of the national planning information system; integrating planning databases; developing data- and digital technology-based applications for analysis, forecasting, and decision-making support in the state management of planning;
+
+c) The Ministry of Agriculture and Environment shall provide standardized and regularly updated national geographic base data to create the frame data for the national planning information system;
+
+d) Ministries, ministerial agencies and People’s Committees at all levels shall create, manage, and provide planning databases and relevant information and data under their management for updating to the national planning information system; connect and share information and data between information systems under their management (if any) and the national planning information system; develop data- and digital technology-based applications for analysis, forecasting, and decision-making support in state management of planning under their management.
+
+5. Organizations and individuals are encouraged to invest in, research and develop applications of science, high technologies, and new technologies in the field of planning.
+
+6. The Government shall elaborate on the building, management, operation and exploitation of the national planning information system.
+
+Article 45. National planning database
+
+1. A national planning database shall include the following components:
+
+a) Database of national-level planning schemes, regional planning schemes, provincial planning schemes, sectoral detailed planning schemes, urban and rural planning schemes;
+
+...
+
+...
+
+...
+
+
+
+
+
+2. The Government shall elaborate on the building, management, updating, maintenance, operation and use of national planning database.
+
+Article 46. Provision of information on planning schemes to agencies, organizations and individuals
+
+1. Information on decided or approved planning schemes shall be disclosed and provided in a complete, timely and accurate way to agencies, organizations, and individuals upon request in accordance with this Law, the law on access to information, and the law on implementation of grassroots democracy, except for contents classified as state secrets in accordance with the law on protection of state secrets.
+
+2. Responsibility for providing information and data on planning is prescribed as follows:
+
+a) Authorities formulating the national master planning scheme, national marine spatial planning scheme and national land use planning scheme shall provide information and data on the national master planning scheme, national marine spatial planning scheme and national land use planning scheme;
+
+b) Authorities organizing planning scheme formulation shall provide information and data on sectoral planning schemes and regional planning schemes under their management;
+
+c) Provincial People’s Committees shall provide information and data on provincial planning schemes;
+
+d) Responsibility for providing information and data on sectoral detailed planning schemes and urban and rural planning schemes shall comply with relevant laws.
+
+3. Methods of providing information and data on planning encompass:
+
+...
+
+...
+
+...
+
+
+
+
+
+b) Via the national planning information system;
+
+c) Via websites and information systems of authorities organizing planning scheme formulation (if any);
+
+d) Other methods prescribed by law.
+
+4. The Minister of Finance shall provide information and data on planning via the national planning information system.
+
+Section 2. IMPLEMENTATION OF PLANNING SCHEMES
+
+Article 47. Responsibility for organizing implementation of planning schemes
+
+1. The Government shall organize the implementation of the national master planning scheme, national marine spatial planning scheme and national land use planning scheme; organize the implementation of programs and projects to implement the national master planning scheme, national marine spatial planning scheme and national land use planning scheme.
+
+2. The Prime Minister shall organize the implementation of regional planning schemes; organize the implementation of programs and projects to implement regional planning schemes.
+
+3. Ministers and Chairpersons of People’s Committees at all levels shall organize the implementation of relevant planning schemes under their management; organize the implementation of programs and projects to implement planning schemes under their management.
+
+...
+
+...
+
+...
+
+
+
+
+
+1. Where planning schemes are used as the basis for assessing the conformity of a project in the approval or ratification of investment policies in accordance with the law on public investment, the law on investment, the law on public-private partnership investment and other relevant laws, the following principles shall be adhered to:
+
+a) The approval or ratification of investment policies of the project shall be based on one of the planning schemes in the planning system to assess conformity of the project;
+
+b) For a project on investment in repair, maintenance, completion, upgradation, rehabilitation or expansion of an existing work or construction of a new works replacing existing one while maintaining the same objectives, location, and scale, the assessment of the project’s conformity with planning schemes is not required.
+
+2. The planning schemes used as the basis for assessing the conformity of a project upon making an investment decision in accordance with the law on public investment and the law on public-private partnership investment include those specified in clause 1 of this Article, urban and rural planning schemes or relevant sectoral detailed planning schemes.
+
+After an investment decision is made, any relevant planning scheme whose contents contradict the investment decision shall be promptly reviewed and adjusted in accordance with the simplified sequence and procedures prescribed in Article 54 of this Law.
+
+3. For a special public investment project or urgent public investment project in accordance with the law on public investment, another project under the direction of the Politburo, the Secretariat of the Central Committee of the Communist Party of Vietnam or the Government’s Party Committee, the authority or person competent to make the investment decision is permitted to decide investment in a manner that is inconsistent with relevant planning schemes provided that the country’s development requirements are conformed to.
+
+After an investment decision is made, the relevant planning schemes must be promptly reviewed and adjusted in accordance with the simplified sequence and procedures prescribed in Article 54 of this Law.
+
+4. The determination of the accuracy of planning diagrams and planning maps when assessing the conformity of the proposed project location with planning schemes shall be carried out in accordance with clause 2 Article 8 of this Law.
+
+5. The Government shall elaborate this Article.
+
+...
+
+...
+
+...
+
+
+
+
+
+ASSESSMENT AND ADJUSTMENT OF PLANNING SCHEMES
+
+Article 49. Assessing implementation of planning schemes
+
+1. National-level planning schemes, regional planning schemes and provincial planning schemes shall be assessed every 05 years; on an ad hoc basis or when the planning scheme adjustment is needed.
+
+2. The implementation of sectoral detailed planning schemes and urban and rural planning schemes shall be assessed in compliance with relevant laws.
+
+3. Responsibility for assessing implementation of planning schemes is prescribed as follows:
+
+a) Authorities formulating the national master planning scheme, national marine spatial planning scheme and national land use planning scheme shall assess the implementation of the national master planning scheme, national marine spatial planning scheme and national land use planning scheme;
+
+b) Authorities organizing formulation of sectoral planning schemes and regional planning schemes shall assess the implementation of sectoral planning schemes and regional planning schemes under their management;
+
+c) Authorities organizing formulation of provincial planning schemes shall assess the implementation of provincial planning schemes;
+
+d) Responsibility for assessing implementation of sectoral detailed planning schemes and urban and rural planning schemes shall comply with relevant laws.
+
+...
+
+...
+
+...
+
+
+
+
+
+a) Consolidation, analysis and assessment of the implementation of the planning scheme and implementation results; assessment of the level of achievement of the objectives and targets set out in the planning scheme;
+
+b) Determination of factors and causes affecting the implementation of the planning scheme and implementation results; proposed solutions for improving the efficiency in the implementation of the planning scheme; proposals for planning scheme adjustment (if any).
+
+5. The authority assessing planning scheme implementation shall post the planning scheme implementation report on the national planning information system.
+
+6. The Government shall stipulate contents of assessment of implementation of national-level planning schemes, regional planning schemes and provincial planning schemes.
+
+Article 50. Authority to adjust planning schemes
+
+1. Agencies and persons having authority to decide or approve planning schemes also have the authority to decide or approve adjustments to planning schemes, except the case specified in point c clause 3 Article 54 of this Law.
+
+2. Agencies having authority to organize formulation of planning schemes shall organize adjustment of planning schemes.
+
+Article 51. Principles of adjusting planning schemes
+
+1. The adjustment of a planning scheme shall be made on the basis of assessment of its implementation according to Article 49 of this Law or in accordance with clause 1 Article 52 of this Law.
+
+...
+
+...
+
+...
+
+
+
+
+
+3. The adjustment of planning schemes must comply with regulations on relationships between planning schemes set out in clause 3 Article 5 and contents of planning schemes mentioned in Section II Chapter II of this Law.
+
+4. The announcement and disclosure of planning schemes shall comply with the regulations enshrined in Articles 41, 42 and 43 of this Law.
+
+5. The adjustment of sectoral detailed planning schemes and urban and rural planning schemes shall be made according to the principles specified in this Law and other laws.
+
+Article 52. Grounds for adjusting planning schemes
+
+1. The adjustment of a national-level planning scheme, regional planning scheme or provincial planning scheme may be made when any of the following grounds exists:
+
+a) The adjustment of objectives of the socio-economic development strategy or sector or field development strategy changes the planning scheme’s objectives;
+
+b) Any change or adjustment to the administrative division affects the nature or territorial spatial scale of the planning scheme;
+
+c) Impacts of natural disasters, climate change or war alter the objectives, orientations or territorial spatial organization of the planning scheme;
+
+d) Abnormal fluctuations in socio-economic conditions constrain resources for implementation of the planning scheme;
+
+...
+
+...
+
+...
+
+
+
+
+
+e) Assurance of national defense, security and foreign affairs is required.
+
+2. Grounds for adjusting sectoral detailed planning schemes and urban and rural planning schemes shall comply with this Law and other relevant laws.
+
+Article 53. Sequence of and procedures for adjusting planning schemes
+
+1. Sequence of and procedures for adjusting the policy on adjustment of a national-level planning scheme, regional planning scheme or provincial planning scheme are as follows:
+
+a) The authority formulating the national master planning scheme, national marine spatial planning scheme or national land use planning scheme shall assess the implementation of the planning scheme as prescribed in Article 49 of this Law and report such to the Government for its consideration and approval of the policy on adjustment of the planning scheme;
+
+b) The authority organizing formulation of the regional planning scheme shall assess the implementation of the planning scheme as prescribed in Article 49 of this Law and report such to the Prime Minister for its consideration and approval of the policy on adjustment of the planning scheme;
+
+c) The authority organizing formulation of the sectoral planning scheme shall assess the implementation of the planning scheme as prescribed in Article 49 of this Law, consider and approve the policy on adjustment of the sectoral planning scheme within its power or submit it to the authority competent to approve sectoral planning schemes for its consideration and approval of the policy on adjustment of the planning scheme;
+
+d) The authority formulating the provincial planning scheme shall assess the implementation of the planning scheme as prescribed in Article 49 of this Law and report such to the Chairperson of the provincial People’s Committee for its consideration and approval of the policy on adjustment of the planning scheme.
+
+2. Sequence of and procedures for formulating, appraising, deciding, approving or announcing adjustments to a national-level planning scheme, regional planning scheme or provincial planning scheme are as follows:
+
+...
+
+...
+
+...
+
+
+
+
+
+b) After the competent authority approves the policy on adjustment of the planning scheme, the authority organizing planning scheme formulation shall organize the formulation, appraisal, decision on or approval, announcement of the planning scheme as prescribed in clauses 1, 2, 3 and 6 Article 9 of this Law;
+
+c) The appraisal council’s Chair shall decide to organize appraisal of adjustments to the planning scheme by holding an appraisal council’s meeting session or seek appraisal opinions in writing;
+
+d) Contents of adjustment of the national-level planning scheme, regional planning scheme or provincial planning scheme are specified under Article 35 of this Law;
+
+dd) The application dossier submitted for appraisal of adjustments to the national-level planning scheme, regional planning scheme or provincial planning scheme is specified under Article 34 of this Law;
+
+e) The application dossier submitted for decision on or approval of adjustments to the planning scheme is prescribed in Article 38 of this Law.
+
+3. The sequence of and procedures for formulating, appraising, approving and announcing adjustments to sectoral detailed planning schemes and urban and rural planning schemes shall comply with relevant laws.
+
+Article 54. Adjusting planning schemes according to simplified sequence and procedures
+
+1. A national-level planning scheme, regional planning scheme or provincial planning scheme may be adjusted according to simplified sequence and procedures when any of the following grounds exists:
+
+a) The implementation of directions of the Politburo, the Secretariat of the Central Committee of the Communist Party of Vietnam or the Government’s Party Committee; resolutions of the National Assembly, Standing Committee of National Assembly or Government on assurance of national defense and security or arrangement of administrative divisions or projects of national importance alters one or more contents of the planning scheme;
+
+...
+
+...
+
+...
+
+
+
+
+
+c) The adjustment of the planning scheme containing contradictory contents has to be made as prescribed in Article 6 of this Law;
+
+d) The adjustment of the planning scheme has to be made to make it conformable with the project investment decision as prescribed in clause 3 Article 48 of this Law;
+
+dd) The adjustment of certain indicators or techno-economic requirements of a work, functional zone or development area defined in the orientations and directions for the development of sectors including infrastructure, resource use, environmental protection, biodiversity conservation or development area defined in the planning scheme does not alter the development objectives of the planning scheme.
+
+e) The adjustment of the boundary of an area proposed for the survey, exploration or exploitation of minerals under management of the provincial People’s Committee in the provincial planning scheme according to actual situations does not alter the development objectives and targets of the provincial planning scheme.
+
+2. The authority organizing planning scheme formulation or planning authority shall assess the implementation of the planning scheme as prescribed in Article 49 of this Law, prepare a planning scheme adjustment dossier and send it to relevant agencies to seek their opinions; accept and explain the opinions, complete the planning scheme adjustment dossier and submit it to a authority or person competent to decide or approve adjustments to the planning scheme.
+
+3. Authority to approve adjustments to planning schemes according to simplified sequence and procedures:
+
+a) The National Assembly shall decide adjustments to national master planning scheme, national marine spatial planning scheme and national land use planning scheme;
+
+b) The Prime Minister shall approve adjustments to regional planning schemes;
+
+c) Ministers assigned to organize formulation of planning schemes shall approve adjustments to planning schemes; report results of planning scheme adjustments to the Prime Minister;
+
+...
+
+...
+
+...
+
+
+
+
+
+4. The adjustment of sectoral detailed planning schemes and urban and rural planning schemes according to simplified sequence and procedures (if any) shall comply with relevant laws.
+
+5. The Government shall elaborate clause 2 of this Article; stipulate dossiers on adjustment of planning schemes according to simplified sequence and procedures.
+
+Chapter VI
+
+IMPLEMENTATION CLAUSE
+
+Article 55. Amending, supplementing and repealing some Articles and clauses of planning-related laws
+
+1. Some Articles of the Railway Law No. 95/2025/QH15 are amended and supplemented as follows:
+
+a) The phrase “quy hoạch mạng lưới giao thông” (“transport network planning scheme”) in clause 1 of Article 9 is replaced with the phrase “quy hoạch mạng lưới đường sắt” (“railway network planning scheme”);
+
+b) The phrase “theo kế hoạch thực hiện quy hoạch đã được phê duyệt” (“according to the approved planning scheme implementation plan”) in clause 4 of Article 14 is replaced with the phrase “phù hợp với quy hoạch đã được phê duyệt” (“in conformity with the approved planning scheme implementation plan”);
+
+c) The phrase “quy hoạch ngành quốc gia” (“national sectoral planning scheme”) in point a clause 1 of Article 19 is replaced with the phrase “quy hoạch ngành” (“sectoral planning scheme”);
+
+...
+
+...
+
+...
+
+
+
+
+
+dd) The phrase “quy hoạch có tính chất kỹ thuật, chuyên ngành đường sắt” (“technically specialized railway planning scheme”) in clause 1 of Article 37 is replaced with the phrase “quy hoạch tuyến đường sắt, ga đường sắt” (“railway line and railway station planning scheme”).
+
+2. Some Articles of the Law on Inland Waterway Transport No. 23/2004/QH11 amended and supplemented by the Law No. 48/2014/QH13, Law No. 97/2015/QH13, Law No. 35/2018/QH14, Law No. 44/2019/QH14 and Law No. 84/2025/QH15 are amended and supplemented as follows:
+
+a) The phrase “quy hoạch kết cấu hạ tầng đường thủy nội địa” (“inland waterway infrastructure planning scheme”) in clause 1 of Article 3, clause 3 of Article 4, clause 3 of Article 13 and clause 2 of Article 100 is replaced with the phrase “quy hoạch tổng thể kết cấu hạ tầng đường thủy nội địa, quy hoạch chi tiết kết cấu hạ tầng đường thủy nội địa” (“master planning scheme for inland waterway infrastructure, detailed planning scheme for inland waterway infrastructure”);
+
+b) Clause 1 of Article 10 is amended and supplemented as follows:
+
+“1. The master planning scheme for inland waterway infrastructure is a sectoral planning scheme.”;
+
+c) In clause 2 of Article 10, the phrase “quy hoạch kết cấu hạ tầng đường thủy nội địa” (“inland waterway infrastructure planning scheme”) is replaced with the phrase “quy hoạch tổng thể kết cấu hạ tầng đường thủy nội địa” (“master planning scheme for inland waterway infrastructure”) and the phrase “quy hoạch tài nguyên nước, quy hoạch phòng, chống thiên tai và thủy lợi” (“water resource planning scheme, natural disaster management and irrigation planning scheme”) is replaced with the phrase “quy hoạch tài nguyên nước, thủy lợi và phòng, chống thiên tai” (“water resource, irrigation and natural disaster management planning scheme”);
+
+d) Clause 3 of Article 10 is amended and supplemented as follows:
+
+“3. The Ministry of Construction shall organize formulation of the master planning scheme for inland waterway infrastructure as per the planning law.”;
+
+dd) The phrase “phương án phát triển kết cấu hạ tầng đường thủy nội địa” (“inland waterway infrastructure development plan”) in clause 4 of Article 10 and clause 2 of Article 100 is replaced with the phrase “phương hướng phát triển kết cấu hạ tầng đường thủy nội địa” (“inland waterway infrastructure development orientations”);
+
+...
+
+...
+
+...
+
+
+
+
+
+ “Article 10a. Detailed planning scheme for inland waterway infrastructure
+
+1. The detailed planning scheme for inland waterway infrastructure is a sectoral detailed planning scheme and concretizes the master planning scheme for inland waterway infrastructure.
+
+2. The Ministry of Construction shall organize formulation and approval of detailed planning scheme for inland waterway infrastructure.
+
+3. The Government shall elaborate on contents, formulation, appraisal, approval, announcement, provision of information on, assessment, organization of implementation and adjustment of the detailed planning scheme for inland waterway infrastructure.”;
+
+g) The phrase “quy hoạch đê điều, công trình thủy lợi” (“flood control system and hydraulic structure planning scheme”) in clause 5 of Article 99 is replaced with the phrase “quy hoạch tài nguyên nước, thủy lợi và phòng, chống thiên tai” (“water resource, irrigation and natural disaster management planning scheme”);
+
+h) The phrase “quy hoạch phát triển lưu vực sông” (“river basin development planning scheme”) in clause 6 of Article 99 is replaced with the phrase “quy hoạch tổng hợp tài nguyên nước và hạ tầng thủy lợi lưu vực sông liên tỉnh” (“master planning scheme for water resources and irrigation infrastructure of inter-provincial river basins”);
+
+3. The phrase “quy hoạch ngành quốc gia” (“national sectoral planning scheme”) in clause 2 Article 6 of the Law on Economical and Efficient Use of Energy No. 50/2010/QH12 amended and supplemented by the Law No. 28/2018/QH14 and Law No. 77/2025/QH15 is replaced with the phrase “quy hoạch ngành” (“sectoral planning scheme”).
+
+4. The phrase “quy hoạch mạng lưới cơ sở giáo dục đại học và sư phạm” (“planning scheme for network of higher education and pedagogical institutions”) in clause 3 Article 8 of the Law on National Defense and Security Education No. 30/2013/QH13 amended and supplemented by the Law No. 35/2018/QH14 and Law No. 98/2025/QH15 is replaced with the phrase “quy hoạch mạng lưới cơ sở giáo dục đại học và giáo dục nghề nghiệp công lập” (“planning scheme for network of public higher education and public vocational education and training institutions”).
+
+5. Some Articles of the Law on Telecommunications No. 24/2023/QH15 amended and supplemented by the Law No. 47/2024/QH15 are amended and supplemented as follows:
+
+...
+
+...
+
+...
+
+
+
+
+
+b) The phrase “quy hoạch kho số viễn thông” (“planning scheme for telecommunications numbers”) in clause 2 of Article 25 is replaced with the phrase “quy hoạch kho số viễn thông và tài nguyên Internet” (“planning scheme for telecommunications numbers and Internet resources”);
+
+c) The phrase “quy hoạch kho số viễn thông, quy hoạch tài nguyên Internet” (“planning scheme for telecommunications numbers, planning scheme for Internet resources”) in clause 3 of Article 34, Article 49, point a clause 1 of Article 50 and point b clause 2 of Article 53 is replaced with the phrase “quy hoạch kho số viễn thông và tài nguyên Internet” (“planning scheme for telecommunications numbers and Internet resources”);
+
+d) Article 63 is amended and supplemented as follows:
+
+“Article 63. Orientations for development of passive telecommunications technical infrastructure under provincial planning schemes
+
+1. Orientations for development of passive telecommunications technical infrastructure under a provincial planning scheme must conform to the planning scheme for information and communications infrastructure.
+
+2. Planning schemes under the urban and rural planning law for urban areas, residential areas, functional zones, and industrial clusters must ensure consistency with the orientations for the development of passive telecommunications technical infrastructure under the provincial planning scheme in order to facilitate the establishment of telecommunications infrastructure and the provision and use of telecommunications services.”;
+
+dd) Article 8 is repealed.
+
+6. Some Articles of the Postal Law No. 49/2010/QH12 are amended and supplemented as follows:
+
+a) The phrase “quy hoạch phát triển mạng bưu chính công cộng” (“public postal network development planning scheme”) in clause 2 of Article 34 is replaced with the phrase “quy hoạch tỉnh” (“provincial planning scheme”);
+
+...
+
+...
+
+...
+
+
+
+
+
+7. Some Articles of the Publishing Law No. 19/2012/QH13 amended and supplemented by the Law No. 35/2018/QH14 are amended and supplemented as follows:
+
+a) The phrase “tổ chức lập nội dung phương án phát triển cơ sở xuất bản trong quy hoạch phát triển mạng lưới cơ sở báo chí, phát thanh, truyền hình, thông tin điện tử, cơ sở xuất bản, quy hoạch vùng và quy hoạch tỉnh theo quy định của pháp luật về quy hoạch;” (“organize the development of contents of publisher development plan and include it in the planning scheme for developing a network of press agencies, broadcasting and electronic information establishments and publishers, regional planning schemes and provincial planning schemes as per the planning law;”) in point a clause 1 of Article 6 is repealed;
+
+b) The phrase “phương án phát triển cơ sở xuất bản trong quy hoạch phát triển mạng lưới cơ sở báo chí, phát thanh, truyền hình, thông tin điện tử, cơ sở xuất bản, quy hoạch vùng và quy hoạch tỉnh;” (“publisher development plan mentioned in the planning scheme for developing a network of press agencies, broadcasting and electronic information establishments and publishers, regional planning schemes and provincial planning schemes;”) in clause 1 of Article 7 is repealed;
+
+c) Point d clause 1 of Article 32 is repealed.
+
+8. Some Articles of the Law on Atomic Energy No. 94/2025/QH15 are amended and supplemented as follows:
+
+a) Title of Article 10 is amended and supplemented as follows:
+
+“Article 10. Strategy for development and application of atomic energy for peaceful purposes”;
+
+b) The phrase “Quy hoạch phát triển, ứng dụng năng lượng nguyên tử” (“Planning scheme for development and application of atomic energy”) in clause 4 of Article 23 is replaced with the phrase “Quy hoạch mạng lưới quan trắc và cảnh báo phóng xạ môi trường quốc gia” (“Planning scheme for national environmental radiation monitoring and warning network”);
+
+c) Clause 5 of Article 23 is amended and supplemented as follows:
+
+...
+
+...
+
+...
+
+
+
+
+
+d) Clause 2 of Article 10; the phrase “Quy hoạch phát triển, ứng dụng năng lượng nguyên tử” (“Planning scheme for development and application of atomic energy”) in clauses 4 and 5 of Article 36 are repealed;
+
+dd) The phrase “quy hoạch có tính chất kỹ thuật, chuyên ngành” (“technically specialized planning scheme”) in point a clause 3 of Article 43 is replaced with the phrase “quy hoạch chi tiết ngành” (“sectoral detailed planning scheme”).
+
+9. The phrase “quy hoạch hệ thống cơ sở khám bệnh, chữa bệnh” (“planning scheme for system of medical examination and treatment establishments”) in point c clause 1 Article 5 of the Law on Medical Examination and Treatment No. 15/2023/QH15 is replaced with the phrase “quy hoạch mạng lưới cơ sở y tế công lập” (“planning scheme for network of public medical establishments”).
+
+10. The phrase “phê duyệt quy hoạch hệ thống kiểm nghiệm của Nhà nước” (“approve the planning scheme for state-owned testing system”) in clause 5 Article 104 of the Law on Pharmacy No. 105/2016/QH13 amended by the Law No. 28/2018/QH14 and Law No. 44/2024/QH15 is repealed.
+
+11. Some Articles of the Law on Persons with Disabilities No. 51/2010/QH12 amended and supplemented by the Law No. 32/2013/QH13 are amended and supplemented as follows:
+
+a) The phrase “Quy hoạch và quản lý” (“Plan and manage”) in point 3 clause 1 of Article 50 is replaced with the phrase “Quản lý” (“Manage”);
+
+b) Point c clause 3 of Article 50 is repealed.
+
+12. Some Articles of the Law on Cultural Heritage No. 45/2024/QH15 amended and supplemented by the Law No. 84/2025/QH15 are amended and supplemented as follows:
+
+a) The phrase “quy hoạch có tính chất kỹ thuật, chuyên ngành” (“technically specialized planning scheme”) in clause 1 of Article 34 and clause 1 of Article 37 is replaced with the phrase “quy hoạch chi tiết ngành” (“sectoral detailed planning scheme”);
+
+...
+
+...
+
+...
+
+
+
+
+
+“4. The Ministry of Culture, Sports and Tourism shall organize the appraisal and approval of planning schemes for preservation, remodeling and restoration of world heritage sites and special national monuments as requested by Chairpersons of provincial People's Committees, Ministers, heads of central authorities and organizations assigned to directly manage monuments.”.
+
+13. Point i clause 1 of Article 29 of the Law on the Elderly No. 39/2009/QH12 amended by the Law No. 41/2024/QH15 is repealed.
+
+14. Some Articles of the Vietnam Maritime Code No. 95/2015/QH13 amended and supplemented by the Law No. 35/2018/QH14, Law No. 16/2023/QH15 and Law No. 81/2025/QH15 are amended and supplemented as follows:
+
+a) The phrase “quy hoạch tổng thể phát triển hệ thống cảng biển, quy hoạch chi tiết nhóm cảng biển, bến cảng, cầu cảng, bến phao, khu nước, vùng nước, quy hoạch chi tiết phát triển vùng đất, vùng nước cảng biển” (“master planning scheme for seaport system development, detailed planning scheme for seaport groups, terminals, wharves, floating terminals, berth pockets and water areas, detailed planning scheme for development of port land and water areas” in clause 2 of Article 7, clause 12 of Article 12, clause 1 of Article 83, clause 3 of Article 88, clause 1 of Article 92, point d clause 1 of Article 126 is replaced with the phrase “quy hoạch tổng thể kết cấu hạ tầng hàng hải, quy hoạch chi tiết kết cấu hạ tầng hàng hải” (“master planning scheme for maritime infrastructure, detailed planning scheme for maritime infrastructure”);
+
+b) Title of Article 81 is amended and supplemented as follows:
+
+“Article 81. Master planning scheme for maritime infrastructure”;
+
+c) Clauses 1 and 2 of Article 81 are amended and supplemented as follows:
+
+ “1. The master planning scheme for maritime infrastructure is a sectoral planning scheme.
+
+2. The formulation of the master planning scheme for maritime infrastructure must comply with the planning law and be based on national defense and security tasks, demands, resources and world maritime development trends.”;
+
+...
+
+...
+
+...
+
+
+
+
+
+dd) Title of Article 82a is amended and supplemented as follows:
+
+ “Article 82a. Detailed planning scheme for maritime infrastructure”;
+
+e) Clause 1 of Article 82a is amended and supplemented as follows:
+
+“1. The detailed planning scheme for maritime infrastructure is a sectoral detailed planning scheme and concretizes the master planning scheme for maritime infrastructure.”;
+
+g) The phrase “Quy hoạch chi tiết phát triển vùng đất, vùng nước cảng biển” (“Detailed planning scheme for development of port land and water areas”) in the introductory paragraph of clause 3 of Article 82a is replaced with the phrase “Quy hoạch chi tiết kết cấu hạ tầng hàng hải” (“Detailed planning scheme for maritime infrastructure”);
+
+h) Clause 4 of Article 82a is amended and supplemented as follows:
+
+“4. The Minister of Transport shall approve detailed planning scheme for maritime infrastructure.”;
+
+i) The phrase “quy hoạch chi tiết nhóm cảng biển, bến cảng, cầu cảng, bến phao, khu nước, vùng nước, quy hoạch chi tiết phát triển vùng đất, vùng nước cảng biển” (“detailed planning scheme for seaport groups, terminals, wharves, floating terminals, berth pockets and water areas, detailed planning schemes for development of port land and water areas” in clauses 5 and 6 of Article 82a is replaced with the phrase “quy hoạch chi tiết kết cấu hạ tầng hàng hải” (“detailed planning scheme for maritime infrastructure”);
+
+k) Clause 2 of Article 82a is repealed;
+
+...
+
+...
+
+...
+
+
+
+
+
+m) The phrase “quy hoạch có tính chất kỹ thuật, chuyên ngành” (“technically specialized planning scheme”) in clause 1 of Article 102 is replaced with the phrase “quy hoạch chi tiết ngành” (“sectoral detailed planning scheme”);
+
+n) Clause 3 of Article 102 is amended and supplemented as follows:
+
+“3. The Ministry of Transport shall organize the formulation and approval of the planning scheme for inland port system development.”.
+
+Article 56. Regulations on adjustment of national marine spatial planning scheme, national land use planning scheme, national sectoral planning scheme, regional planning schemes and provincial planning schemes for 2021-2030 period
+
+1. Principles of adjusting planning schemes are as follows:
+
+a) For planning schemes and adjustments to planning schemes which are being formulated as prescribed in clause 2 Article 58 of this Law, regulations set out under this Article shall continue to be complied with;
+
+b) Planning schemes may be adjusted concurrently. Adjustments to a planning scheme that are appraised first shall be approved first;
+
+c) The adjustment of a planning scheme does not require formulation of adjustment tasks and strategic environmental assessment.
+
+2. Sequence of formulating, appraising and approving adjustments to the national marine spatial planning scheme, national land use planning scheme or regional planning scheme are as follows:
+
+...
+
+...
+
+...
+
+
+
+
+
+b) The authority assigned to formulate adjustments to the planning scheme shall develop adjustments to the national marine spatial planning scheme, national land use planning scheme or regional planning scheme and report them to the authority organizing formulation of adjustments to the planning scheme so as for it to send them for opinions.
+
+For adjustments to the national master planning scheme or national land use planning scheme, it is required to seek opinions from the Central Committee of the Vietnam Fatherland Front, Ministries and provincial People’s Committees concerned. For adjustments to the regional planning scheme, it is required to seek opinions from the Central Committee of the Vietnam Fatherland Front, Ministries and provincial People’s Committees in the region.
+
+c) Agencies from which opinions are sought shall respond in writing within 15 working days from the date on which they receive the request for opinions;
+
+d) The authority organizing formulation of adjustments to the planning scheme shall accept and explain opinions, complete adjustments to the planning scheme and submit them to the council for appraisal of adjustments to planning scheme;
+
+dd) The authority organizing formulation of adjustments to the planning scheme shall complete adjustments to the planning scheme according to appraisal opinions of the council for appraisal of adjustments to planning scheme and submit them to the authority competent to approve adjustments to the planning scheme for its consideration and approval;
+
+e) The authority organizing formulation of adjustments to the planning scheme shall organize the announcement of adjustments to the planning scheme according to the planning law before the effective date of this Law.
+
+3. Sequence of formulating, appraising and approving adjustments to the national sectoral planning scheme is as follows:
+
+a) The authority organizing formulation of adjustments to the planning scheme shall decide contents of the planning scheme to be adjusted; direct the authority assigned to formulate adjustments to the planning scheme to make an estimate of costs of adjusting planning scheme on the basis of the contents of the planning scheme to be adjusted; organize the appraisal and approval of the estimate as prescribed by law;
+
+b) The authority assigned to formulate adjustments to the planning scheme shall develop adjustments to the planning scheme and report them to the authority organizing formulation of adjustments to the planning scheme so as for it to send them to the Central Committee of the Vietnam Fatherland Front, Ministries and provincial People’s Committees for their opinions;
+
+...
+
+...
+
+...
+
+
+
+
+
+d) The authority assigned to formulate adjustments to the planning scheme shall accept and explain opinions, complete adjustments to the planning scheme;
+
+dd) The authority assigned to formulate adjustments to the planning scheme shall review adjustments to the planning scheme and report them to the authority organizing formulation of adjustments to the planning scheme for submission to the council for appraisal of adjustments to planning scheme;
+
+e) The authority assigned to formulate adjustments to the planning scheme shall complete adjustments to the planning scheme according to appraisal opinions of the council for appraisal of adjustments to planning scheme, report them to the authority organizing formulation of adjustments to the planning scheme for submission to the person competent to approve adjustments to the planning scheme for his/her consideration and approval;
+
+g) The authority organizing formulation of adjustments to the planning scheme shall organize the announcement of adjustments to the planning scheme according to the planning law before the effective date of this Law.
+
+4. Sequence of formulating, appraising and approving adjustments to a provincial planning scheme is as follows:
+
+a) The authority organizing formulation of adjustments to the planning scheme shall decide contents of the planning scheme to be adjusted; direct the authority assigned to formulate adjustments to the planning scheme to make an estimate of costs of adjusting planning scheme on the basis of the contents of the planning scheme to be adjusted; organize the appraisal and approval of the estimate as prescribed by law;
+
+b) The authority assigned to formulate adjustments to the planning scheme shall develop adjustments to the planning scheme and report them to the authority organizing formulation of adjustments to the planning scheme so as for it to send them to the Central Committee of the Vietnam Fatherland Front, Ministries and People’s Committees of adjacent provinces, Committee of the provincial Fatherland Front, People's Committees of communes, agencies and organizations concerned for their opinions;
+
+c) Agencies and organizations from which opinions are sought shall respond in writing within 15 working days from the date on which they receive the request for opinions;
+
+d) The authority assigned to formulate adjustments to the planning scheme shall accept and explain opinions, complete adjustments to the planning scheme and submit them to the council for appraisal of adjustments to planning scheme;
+
+...
+
+...
+
+...
+
+
+
+
+
+e) The provincial People’s Committee shall submit adjustments to the planning scheme to the provincial People's Council for its consideration and approval before submitting it to the Chairperson of the provincial People's Committee for approval; organize the announcement of the planning scheme as per the planning law before the effective date of this Law.
+
+5. Authority to organize formulation of adjustments to planning schemes is provided for as follows:
+
+a) Ministries shall organize adjustment of national marine spatial planning scheme, national land use planning scheme, national sectoral planning scheme and regional planning schemes under their management;
+
+b) Provincial People’s Committees shall organize formulation of adjustments to provincial planning schemes.
+
+6. Adjustments to planning schemes are provided for as follows:
+
+a) Adjustments to national marine spatial planning scheme, national land use planning scheme, national sectoral planning scheme and regional planning schemes shall comply with the planning law before the effective date of this Law, except the regulations laid down in point n clause 2 Article 22, point i clause 2 Article 23, point g clause 3, point d clause 5 and point d clause 6 Article 25 and point g clause 2 Article 26 of the Planning Law No. 21/2017/QH15 amended and supplemented by the Law No. 03/2022/QH15, Law No. 05/2022/QH15, Law No. 08/2022/QH15, Law No. 09/2022/QH15, Law No. 15/2023/QH15, Law No. 16/2023/QH15, Law No. 20/2023/QH15, Law No. 26/2023/QH15, Law No. 27/2023/QH15, Law No. 28/2023/QH15, Law No. 31/2024/QH15, Law No. 33/2024/QH15, Law No. 35/2024/QH15, Law No. 38/2024/QH15, Law No. 43/2024/QH15 and Law No. 57/2024/QH15 (hereinafter referred to as “Planning Law No. 21/2017/QH15”) and other relevant laws;
+
+b) Adjustments to provincial planning schemes shall comply with the planning law before the effective date of this Law, except the regulations laid down in point o clause 2 Article 27 of the Planning Law No. 21/2017/QH15 and other relevant laws.
+
+The determination of land use norms under the land allocation and zoning plan in the adjustments to the provincial planning scheme for the 2021 - 2030 period shall be carried out in accordance with the land law.
+
+7. Opinions about adjustments to a planning scheme shall be sought as follows:
+
+...
+
+...
+
+...
+
+
+
+
+
+b) Opinions shall be sought by sending written documents and posting adjustments to the planning scheme on the website of the authority organizing planning scheme formulation or planning authority, national planning information system and national planning database, except contents classified as state secrets in accordance with regulations of law on protection of state secrets;
+
+c) The authority organizing planning scheme formulation shall publish opinions and the acceptance of and explanation for opinions on its website, national planning information system and national planning database, except contents classified as state secrets according to regulations of law on protection of state secrets.
+
+8. An application dossier submitted for appraisal of adjustments to a planning scheme shall include the following major documents:
+
+a) A proposal;
+
+b) A planning scheme adjustment report;
+
+c) A draft of the written approval of the planning scheme;
+
+d) A consolidated report on opinions of agencies and organizations about the planning scheme adjustment; copies of opinions of agencies and organizations; report on acceptance of and explanation for opinions about the planning scheme adjustment;
+
+dd) Diagrams, maps and database in relation to planning scheme adjustment.
+
+9. Authority to establish a council for appraisal of adjustments to planning schemes is as follows:
+
+...
+
+...
+
+...
+
+
+
+
+
+b) Each Minister shall establish a council for appraisal of adjustments to the national sectoral planning scheme;
+
+c) Each Chairperson of the provincial People’s Committee shall establish a council for appraisal of adjustments to provincial planning scheme.
+
+10. Composition of a council for appraisal of adjustments to planning scheme is provided for as follows:
+
+a) A council for appraisal of adjustments to national marine spatial planning, national land use planning scheme and regional planning schemes shall be composed of a Chair, Deputy Chair(s) and members. The Chair is the Prime Minister or Deputy Prime Minister; members of the council are representatives of Ministries, ministerial agencies, representatives of some cities and provinces, and experts being reviewers;
+
+b) A council for appraisal of adjustments to national sectoral planning scheme shall be composed of a Chair, Deputy Chair(s) and members. The Chair is the leader of the authority organizing formulation of the national sectoral planning scheme; members of the council are representatives of Ministries, ministerial agencies, representatives of some cities and provinces, and experts being reviewers;
+
+c) A council for appraisal of adjustments to provincial planning scheme shall be composed of a Chair and members. The Chair is the leader of the provincial People’s Committee, members of the council are representatives of Ministries, ministerial agencies, senior representatives of specialized agencies affiliated to the provincial People’s Committee, and experts being reviewers;
+
+d) The standing body of the council for appraisal of adjustments to planning schemes shall be decided by the Chair.
+
+11. The operating and decision-making mechanism of the council for appraisal of adjustments to planning schemes is as follows:
+
+a) The appraisal council shall operate on a collective basis and appraise adjustments to planning schemes according to its assigned tasks;
+
+...
+
+...
+
+...
+
+
+
+
+
+c) The appraisal council shall cast votes and evaluate by the majority rule to approve the application dossier submitted for appraisal of adjustments to planning schemes. The application dossier will be approved and eligible to be submitted for approval if at least three quarters (3/4) of the members of the appraisal council cast votes to approve either without it with or without revisions. The application dossier will be approved without any revisions thereto if 100% of the appraisal council’s members vote to approve it without any revision.
+
+12. Responsibilities and powers of the Chair of the council for appraisal of adjustments to planning schemes are provided for as follows:
+
+a) Decide to organize appraisal of adjustments to the planning scheme by holding an appraisal council’s meeting session or seek appraisal opinions in writing;
+
+b) Fulfill other responsibilities and exercise other powers as per the planning law before the effective date of this Law.
+
+13. Responsibilities and powers of members of the council for appraisal of adjustments to planning schemes are provided for as follows:
+
+a) Contribute appraisal opinions in writing and clearly specify whether the planning scheme adjustment dossier is eligible to be submitted for approval;
+
+b) Council’s members being representatives of Ministries, ministerial agencies, specialized agencies affiliated to provincial People’s Committees and relevant agencies shall take responsibility for their appraisal opinions under the state management of their fields and sectors;
+
+c) In case a member of the appraisal council is unable to attend the council’s meeting session, such member shall submit written appraisal opinions to the council’s standing body within the prescribed time limit. Upon expiry of the time limit for submission of written opinions, if no opinion is received, it is deemed that the member agrees to the planning scheme adjustment dossier.
+
+14. Responsibilities and powers of the standing body of the council for appraisal of adjustments to planning schemes are provided for as follows:
+
+...
+
+...
+
+...
+
+
+
+
+
+b) Consolidate remarks and assessments of the appraisal council’s members; prepare a draft report on adjustments to the planning scheme and send it to appraisal council’s members for their opinions; seek opinions from appraisal council’s members about the draft appraisal report; prepare minutes of meeting of the appraisal council; finalize the appraisal report for submission to the appraisal council’s Chair for his/her consideration and issuance;
+
+c) Make necessary preparations so as for the appraisal council to carry out appraisal activities in accordance with regulations.
+
+15. Reviewers in a council for appraisal of adjustments to planning schemes are provided for as follows:
+
+a) The appraisal council must have at least 03 reviewers acting as reviewers for the planning scheme; at least 01 member acting as reviewers for planning diagrams and maps, and planning database.
+
+b) Reviewers for the planning scheme must satisfy qualification requirements according to the planning law before the effective date of this Law;
+
+c) Reviewers for planning diagrams and maps, and planning database must have at least a bachelor's degree and at least 05 consecutive years of experience in participation in survey and mapping or participation in making of planning diagrams and maps, and planning database;
+
+d) Reviewers in an appraisal council shall have responsibilities and powers specified in points a and c clause 13 of this Article.
+
+16. The appraisal of adjustments to a planning scheme shall focus on the following contents:
+
+a) Compliance with the sequence of formulating adjustments to the planning scheme prescribed in clauses 1, 2, 3 and 4 of this Article;
+
+...
+
+...
+
+...
+
+
+
+
+
+c) Conformity of adjustments to the planning scheme with clause 6 of this Article.
+
+17. The appraisal report shall specify opinions of the council for appraisal of adjustments to planning schemes about the following:
+
+a) Adjustments to the planning scheme specified in clause 16 of this Article;
+
+b) Conclusion on whether the adjustments to the planning scheme are eligible to be submitted for approval.
+
+18. An application dossier submitted for approval of adjustments to a planning scheme shall include the following major documents:
+
+a) A proposal;
+
+b) A planning scheme adjustment report;
+
+c) A draft of the written approval of adjustments to the planning scheme;
+
+d) A consolidated report on opinions of agencies and organizations about the planning scheme adjustment; copies of opinions of related agencies and organizations; report on acceptance of and explanation for opinions about the planning scheme adjustment;
+
+...
+
+...
+
+...
+
+
+
+
+
+e) A report on explanation for and acceptance of appraisal opinions;
+
+g) Diagrams, maps and database in relation to planning scheme adjustment.
+
+19. Authority to approve adjustments to planning schemes is provided for as follows:
+
+a) The Prime Minister shall approve adjustments to national marine spatial planning scheme, national land use planning scheme and regional planning schemes;
+
+b) Ministers assigned to organize formulation of national sectoral planning scheme shall approve adjustments to the national sectoral planning scheme;
+
+c) Chairpersons of provincial People’s Committees shall approve adjustments to provincial planning schemes.
+
+20. The costs of formulating, appraising, approving and announcing adjustments to planning schemes shall comply with the planning law before the effective date of this Law.
+
+21. In cases where a foreign consultancy is hired to adjust a planning scheme pursuant to a decision of the competent person, the cost of the planning scheme adjustment shall be determined on the basis of the scope of consulting work, the number of experts, the qualifications of consultants, their working time, levels of salary of consultants in the country and region where the consultants are expected to be hired, and other necessary costs required to complete the consulting work. If norms for certain costs are unavailable or available but not appropriate, then similar cost data of similar projects that have been or are being implemented worldwide may be used; a cost estimate shall be made to determine such costs, ensuring consistency with international practices.
+
+Article 57. Effect
+
+...
+
+...
+
+...
+
+
+
+
+
+2. Article 48 of this Law comes into force from the date on which this Law is passed.
+
+3. Article 56 of this Law comes into force from the date on which this Law is passed until February 28, 2026 inclusive, except the regulations laid down in clause 4 of this Article.
+
+4. Regulations on adjustment of national marine spatial planning scheme and national land use planning scheme for 2021-2030 period in Article 56 of this Law come into force from the date on which this Law is passed until adjustments to the planning scheme is approved but no later than June 30, 2026.
+
+5. The Government’s Resolution No. 66.2/2025/NQ-CP dated August 28, 2025 providing for resolution of difficulties in adjustment of national-level planning schemes, regional planning schemes and provincial planning schemes upon arrangement of administrative divisions and organization of 2-tier local government pending the promulgation of the Planning Law (amended) shall cease to have effect from the date on which this Law is passed.
+
+6. The Law on Planning No. 21/2017/QH15 shall cease to have effect from the effective date of this Law, except relevant regulations in Article 58 of this Law.
+
+Article 58. Transitional clauses
+
+1. For planning schemes and adjustments to planning schemes which were decided or approved according to the law before December 10, 2025, the following regulations shall be complied with:
+
+a) If a national-level planning scheme, regional planning scheme or provincial planning scheme for 2021-2030 period and adjustments thereto are decided or approved before the effective date of this Law, it shall continue to be implemented until the end of the planning period or until superseded in accordance with law;
+
+b) If an urban and rural planning scheme or technically specialized planning scheme and adjustments thereto are approved before the effective date of this Law, it shall continue to be implemented until the end of the planning period or the time limit for planning or until superseded in accordance with law.
+
+...
+
+...
+
+...
+
+
+
+
+
+a) In case a planning scheme and adjustments thereto were formulated and appraised as prescribed in Article 54 of the Planning Law No. 21/2017/QH14 before December 10, 2025 but have not been decided or approved or adjustments to a planning scheme have been formulated as prescribed in Article 54a of the Planning Law No. 21/2017/QH14 but have not been decided or approved, they shall be approved as prescribed in Article 56 of this Law;
+
+b) In case adjustments to a planning scheme were formulated as prescribed in Article 54 of the Planning Law No. 21/2017/QH14 before December 10, 2025 but have not been appraised, decided or approved; a planning scheme is being adjusted according to the Government’s Resolution No. 66.2/2025/NQ-CP but has not been appraised or approved, they shall continue to be formulated, appraised or approved as prescribed in Article 56 of this Law.
+
+3. If the technically specialized planning schemes under serial numbers 3, 7, 8, 9, 12, 13, 18, 21, 22, 23, 28, 29 and 31 in the Appendix II to the Planning Law No. 21/2017/QH14 were formulated or adjusted before December 10, 2025 but have not been approved, they continue to be formulated and appraised according to relevant laws before the effective date of this Law and approved as follows:
+
+a) A planning scheme and adjustments to a planning scheme that are formulated and appraised first shall be approved first. If the approved planning scheme and adjustments contradicts other relevant planning schemes, the determination of the planning scheme that must be adjusted and the planning scheme that must be implemented shall adhere to the principles specified in Article 6 of this Law;
+
+b) A Minister shall approve a planning scheme or adjustments thereto subject to approval by the Prime Minister according to relevant laws before the effective date of this Law;
+
+c) A Minister or Chairperson of provincial People’s Committee shall approve a planning scheme or adjustments thereto subject to his/her approval according to relevant laws before the effective date of this Law.
+
+4. The formulation and adjustment of an urban and rural planning scheme shall be carried out together with the adjustment of a provincial planning scheme for 2021-2030 period; the planning scheme that is formulated and appraised first shall be approved first. When its content(s) contradict(s) the provincial planning scheme, the urban and rural planning scheme must be adjusted according to the provincial planning scheme.
+
+5. If a plan for implementation of a national-level planning scheme, regional planning scheme or provincial planning scheme, technically specialized planning scheme (if any) is promulgated before the effective date of this Law, it shall continue to be implemented until the end of the validity period of the planning scheme or until adjustments to the planning scheme are approved in accordance with this Law.
+
+ 
+
+...
+
+...
+
+...
+
+
+
+
+
+ 
+
+ 
+
+CHAIRMAN OF THE NATIONAL ASSEMBLY
+
+
+
+
+Tran Thanh Man
+
+ 
+
+APPENDIX
+
+LIST OF SECTORAL PLANNING SCHEMES AND SECTORAL DETAILED PLANNING SCHEMES
+(Promulgated together with the Planning Law No. 112/2025/QH15)
+
+Section 1. SECTORAL PLANNING SCHEMES
+
+No.
+
+Name of sectoral planning scheme
+
+...
+
+...
+
+...
+
+
+
+
+
+INFRASTRUCTURE
+
+1.
+
+Road network planning scheme
+
+2.
+
+Railway network planning scheme
+
+3.
+
+Master planning scheme for maritime infrastructure
+
+4.
+
+Planning scheme for nationwide airport system (excluding specialized airports)
+
+...
+
+...
+
+...
+
+
+
+
+
+Master planning scheme for inland waterway infrastructure
+
+6.
+
+Master energy planning scheme
+
+7.
+
+Power development planning scheme
+
+8.
+
+Oil and gas storage and supply infrastructure planning scheme
+
+9.
+
+Information and communication infrastructure planning scheme
+
+...
+
+...
+
+...
+
+
+
+
+
+Tourism system planning scheme
+
+11.
+
+Public culture and sports facility network planning scheme
+
+12.
+
+planning scheme for network of public higher education and public vocational education and training institutions
+
+13.
+
+Public social support center network planning scheme
+
+14.
+
+Fishing port and storm shelter system planning scheme
+
+...
+
+...
+
+...
+
+
+
+
+
+Public medical establishment network planning scheme
+
+16.
+
+Master planning scheme for national reserve warehouse system
+
+17.
+
+Planning scheme for system of national defense works, military zones and ammunition depots
+
+18.
+
+National defense industry planning scheme
+
+19.
+
+Security industry planning scheme
+
+...
+
+...
+
+...
+
+
+
+
+
+Fire prevention and fighting infrastructure planning scheme
+
+21.
+
+Master planning scheme for urban and rural system
+
+22.
+
+National defense and security education center network planning scheme
+
+II
+
+USE OF NATURAL RESOURCES
+
+23.
+
+Master planning scheme for sustainable exploitation and use of coastal resources
+
+...
+
+...
+
+...
+
+
+
+
+
+Planning scheme for baseline survey of geology and minerals
+
+25.
+
+Planning scheme for group-I minerals
+
+26.
+
+Planning scheme for group-II minerals
+
+27.
+
+Forestry planning scheme
+
+28.
+
+Aquatic resource protection and exploitation planning scheme
+
+...
+
+...
+
+...
+
+
+
+
+
+National defense land use planning scheme
+
+30.
+
+Security land use planning scheme
+
+III
+
+ENVIRONMENTAL PROTECTION, BIODIVERSITY CONSERVATION
+
+31.
+
+Environmental protection planning scheme
+
+32.
+
+Biodiversity conservation planning scheme
+
+...
+
+...
+
+...
+
+
+
+
+
+Hydrometeorological station network planning scheme
+
+IV
+
+ MISCELLANEOUS
+
+34.
+
+Water resource, irrigation and natural disaster management planning scheme
+
+Section 2. SECTORAL DETAILED PLANNING SCHEMES
+
+No.
+
+Name of sectoral detailed planning
+
+Regulated by
+
+...
+
+...
+
+...
+
+
+
+
+
+I
+
+INFRASTRUCTURE
+
+ 
+
+ 
+
+1.
+
+Road infrastructure planning scheme
+
+Law on Road
+
+Road network planning scheme
+
+2.
+
+...
+
+...
+
+...
+
+
+
+
+
+Railway Law
+
+Railway network planning scheme
+
+3.
+
+Detailed planning scheme for maritime infrastructure
+
+Vietnam Maritime Code
+
+Master planning scheme for maritime infrastructure
+
+4.
+
+Planning scheme for inland port system development
+
+Vietnam Maritime Code
+
+...
+
+...
+
+...
+
+
+
+
+
+Railway network planning scheme
+
+Road network planning scheme
+
+Planning scheme for nationwide airport system
+
+Master planning scheme for inland waterway infrastructure
+
+5.
+
+Detailed planning scheme for airports
+
+Law on Vietnam Civil Aviation
+
+Planning scheme for nationwide airport system
+
+6.
+
+...
+
+...
+
+...
+
+
+
+
+
+Law on Inland Waterway Transport
+
+Master planning scheme for inland waterway infrastructure
+
+7.
+
+Planning scheme for flood control system and flood control on diked river routes
+
+Law on Flood Control System; Law on Natural Disaster Management
+
+Water resource, irrigation and natural disaster management planning scheme
+
+8.
+
+Planning scheme for preservation, remodeling and restoration of monuments of world heritage sites, special national sites; planning schemes for preservation, remodeling and restoration of monuments of national monument cluster or cluster of national and provincial monuments
+
+Law on Cultural Heritage
+
+...
+
+...
+
+...
+
+
+
+
+
+9.
+
+Archaeological planning scheme
+
+Law on Cultural Heritage
+
+Provincial planning scheme
+
+10.
+
+Border checkpoint planning scheme
+
+Law on National Border
+
+National master planning scheme
+
+11.
+
+...
+
+...
+
+...
+
+
+
+
+
+Law on Environmental Protection;
+
+Law on Atomic Energy
+
+Environmental protection planning scheme
+
+II
+
+USE OF NATURAL RESOURCES
+
+ 
+
+ 
+
+12.
+
+Provincial land use planning scheme
+
+...
+
+...
+
+...
+
+
+
+
+
+National land use planning scheme
+
+National defense land use planning scheme
+
+Security land use planning scheme
+
+Provincial planning scheme
+
+13.
+
+Planning scheme for telecommunications numbers and Internet resources
+
+Law on Telecommunications
+
+Information and communication infrastructure planning scheme
+
+14.
+
+...
+
+...
+
+...
+
+
+
+
+
+Law on Radio Frequencies
+
+Information and communication infrastructure planning scheme
+
+III
+
+MISCELLANEOUS
+
+ 
+
+ 
+
+15.
+
+Master planning scheme for water resources and irrigation infrastructure of inter-provincial river basins
+
+Law on Natural Resources; Law on Irrigation
+
+...
+
+...
+
+...

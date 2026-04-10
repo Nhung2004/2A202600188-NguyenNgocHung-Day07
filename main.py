@@ -17,14 +17,15 @@ from src.embeddings import (
 )
 from src.models import Document
 from src.store import EmbeddingStore
+from src.chunking import LawArticleChunker
 
 SAMPLE_FILES = [
-    "data/python_intro.txt",
-    "data/vector_store_notes.md",
-    "data/rag_system_design.md",
-    "data/customer_support_playbook.txt",
-    "data/chunking_experiment_report.md",
-    "data/vi_retrieval_notes.md",
+    "data/Law on Marriage and Family 2014.txt",
+    "data/Children Law 2016.txt",
+    "data/Law on Educators 2025.txt",
+    "data/Law on Investment 2025.txt",
+    "data/Law on Press 2025.txt",
+    "data/Law on Population 2025.txt",
 ]
 
 
@@ -101,7 +102,21 @@ def run_manual_demo(question: str | None = None, sample_files: list[str] | None 
     print(f"\nEmbedding backend: {getattr(embedder, '_backend_name', embedder.__class__.__name__)}")
 
     store = EmbeddingStore(collection_name="manual_test_store", embedding_fn=embedder)
-    store.add_documents(docs)
+    
+    # Ở bài Nhóm, chúng ta dùng custom LawArticleChunker thay vì chunker mặc định
+    chunker = LawArticleChunker(chunk_size=600)
+    chunked_docs = []
+    print("Chunking documents using LawArticleChunker...")
+    for doc in docs:
+        chunks = chunker.chunk(doc.content)
+        for i, chunk in enumerate(chunks):
+            chunked_docs.append(Document(
+                id=f"{doc.id}_chunk_{i}",
+                content=chunk,
+                metadata=doc.metadata
+            ))
+
+    store.add_documents(chunked_docs)
 
     print(f"\nStored {store.get_collection_size()} documents in EmbeddingStore")
     print("\n=== EmbeddingStore Search Test ===")
