@@ -1,7 +1,7 @@
 # Báo Cáo Lab 7: Embedding & Vector Store
 
 **Họ tên:** Nguyễn Ngọc Hưng - 2A202600188
-**Nhóm:** Nhóm07
+**Nhóm:**
 **Ngày:** 2026-04-10
 
 ---
@@ -14,17 +14,17 @@
 > High cosine similarity (gần 1.0) nghĩa là hai đoạn văn bản có **hướng vector gần giống nhau** trong không gian embedding, tức là chúng mang ý nghĩa ngữ cảnh tương tự. Hai vector có cosine similarity cao khi góc giữa chúng nhỏ, cho thấy nội dung ngữ nghĩa (semantic) của hai đoạn text gần nhau, bất kể độ dài hay cách diễn đạt khác nhau.
 
 **Ví dụ HIGH similarity:**
-- Sentence A: "Children have the right to be protected from sexual abuse."
-- Sentence B: "Children have the right to be protected from labor exploitation."
-- Tại sao tương đồng: Cả hai câu đều trích từ Luật Trẻ em, có cùng cấu trúc ngữ pháp ("Children have the right to be protected from…"), cùng chủ đề (quyền trẻ em), và cùng ngữ nghĩa bảo vệ trẻ em. Trong không gian embedding, các từ "protected", "children", "right" sẽ kéo hai vector về cùng hướng.
+- Sentence A: "Python is a programming language used for machine learning."
+- Sentence B: "Python is widely used in AI and data science."
+- Tại sao tương đồng: Cả hai câu đều nói về Python trong bối cảnh AI/ML. Chúng chia sẻ chủ đề chính (Python, lĩnh vực AI), dù diễn đạt khác nhau thì ý nghĩa tổng thể là tương đồng. Trong không gian embedding, các từ khóa "machine learning", "AI", "data science" sẽ được ánh xạ vào vùng gần nhau.
 
 **Ví dụ LOW similarity:**
-- Sentence A: "The Government uniformly manages the press nationwide."
-- Sentence B: "Replacement-level fertility means the average of 2.1 children per woman."
-- Tại sao khác: Hai câu thuộc hai lĩnh vực hoàn toàn khác nhau (quản lý báo chí vs. dân số học). Không có từ khóa hay khái niệm ngữ nghĩa chung nào, dẫn đến vector embedding hướng theo các hướng rất khác nhau trong không gian đa chiều.
+- Sentence A: "The weather is sunny and warm today."
+- Sentence B: "Deep learning models require GPU acceleration."
+- Tại sao khác: Hai câu thuộc hai lĩnh vực hoàn toàn khác nhau (thời tiết vs. deep learning). Không có từ khóa hay khái niệm ngữ nghĩa chung nào, dẫn đến vector embedding hướng theo các hướng rất khác nhau trong không gian đa chiều.
 
 **Tại sao cosine similarity được ưu tiên hơn Euclidean distance cho text embeddings?**
-> Cosine similarity đo **góc giữa hai vector** thay vì khoảng cách tuyệt đối, nên nó **bất biến với độ dài (magnitude)** của vector. Trong text embeddings, hai đoạn văn bản có cùng ý nghĩa nhưng độ dài khác nhau sẽ tạo ra các vector có magnitude khác nhau — Euclidean distance sẽ cho kết quả sai lệch vì nó bị ảnh hưởng bởi magnitude, trong khi cosine similarity chỉ quan tâm đến hướng vector, phản ánh chính xác hơn sự tương đồng ngữ nghĩa. Ví dụ thực tế: Điều 1 của Luật Hôn nhân (ngắn, ~50 từ) và Điều 8 (dài, ~200 từ) đều nói về kết hôn — cosine similarity sẽ phát hiện đúng, Euclidean distance sẽ báo chúng "xa nhau" do magnitude khác biệt.
+> Cosine similarity đo **góc giữa hai vector** thay vì khoảng cách tuyệt đối, nên nó **bất biến với độ dài (magnitude)** của vector. Trong text embeddings, hai đoạn văn bản có cùng ý nghĩa nhưng độ dài khác nhau sẽ tạo ra các vector có magnitude khác nhau — Euclidean distance sẽ cho kết quả sai lệch vì nó bị ảnh hưởng bởi magnitude, trong khi cosine similarity chỉ quan tâm đến hướng vector, phản ánh chính xác hơn sự tương đồng ngữ nghĩa.
 
 ### Chunking Math (Ex 1.2)
 
@@ -41,7 +41,7 @@
 > **Đáp án: 23 chunks**
 
 **Nếu overlap tăng lên 100, chunk count thay đổi thế nào? Tại sao muốn overlap nhiều hơn?**
-> Với overlap=100: `ceil((10000 - 100) / (500 - 100)) = ceil(9900 / 400) = ceil(24.75) = 25 chunks`. Tăng overlap từ 50 lên 100 làm tăng số chunk từ 23 lên 25, vì mỗi bước tiến (step) nhỏ hơn (400 thay vì 450 ký tự). Overlap nhiều hơn giúp **bảo toàn ngữ cảnh** ở ranh giới giữa các chunk — đặc biệt quan trọng với tài liệu luật, nơi một điều khoản có thể tham chiếu đến khoản trước đó (ví dụ: "theo quy định tại Khoản 1 Điều này"). Overlap giúp chunk sau vẫn chứa phần cuối chunk trước, giảm nguy cơ mất thông tin tham chiếu chéo.
+> Với overlap=100: `ceil((10000 - 100) / (500 - 100)) = ceil(9900 / 400) = ceil(24.75) = 25 chunks`. Tăng overlap từ 50 lên 100 làm tăng số chunk từ 23 lên 25, vì mỗi bước tiến (step) nhỏ hơn (400 thay vì 450 ký tự). Overlap nhiều hơn giúp **bảo toàn ngữ cảnh** ở ranh giới giữa các chunk — một câu hoặc ý tưởng bị cắt ở cuối chunk trước sẽ được lặp lại ở đầu chunk sau, giảm nguy cơ mất thông tin quan trọng khi retrieval.
 
 ---
 
@@ -49,33 +49,30 @@
 
 ### Domain & Lý Do Chọn
 
-**Domain:** Hệ thống Pháp luật Việt Nam (Vietnamese Legal Documents)
+**Domain:** AI & Data Engineering Technical Documentation (Tài liệu kỹ thuật về AI, Vector Store, RAG systems)
 
 **Tại sao nhóm chọn domain này?**
-> Nhóm chọn domain luật pháp Việt Nam vì đây là loại tài liệu có **cấu trúc phân cấp rõ ràng** (Chương → Mục → Điều → Khoản → Điểm), tạo cơ hội tối ưu để thiết kế và đánh giá custom chunking strategy. Tài liệu luật cũng cho phép tạo benchmark queries với gold answers **chính xác, có thể verify** (trích dẫn đúng Điều, Khoản). Ngoài ra, các luật thuộc nhiều lĩnh vực khác nhau (gia đình, đầu tư, giáo dục, báo chí, dân số) giúp kiểm tra khả năng **cross-domain retrieval** và hiệu quả của **metadata filtering** (filter theo category, year). Đây cũng là domain thực tế với nhu cầu tra cứu pháp luật cao, phù hợp để xây dựng ứng dụng Legal RAG.
+> Nhóm chọn domain tài liệu kỹ thuật AI vì đây là lĩnh vực phù hợp nhất với nội dung lab — các tài liệu có cấu trúc rõ ràng (headings, paragraphs, bullet points) giúp kiểm chứng hiệu quả của các chiến lược chunking khác nhau. Ngoài ra, domain này cho phép tạo benchmark queries với gold answers chính xác, dễ verify, và tài liệu có cả tiếng Anh lẫn tiếng Việt để test khả năng xử lý đa ngôn ngữ của hệ thống retrieval.
 
 ### Data Inventory
 
 | # | Tên tài liệu | Nguồn | Số ký tự | Metadata đã gán |
 |---|--------------|-------|----------|-----------------|
-| 1 | Law on Marriage and Family 2014.txt | Luật số 52/2014/QH13 | 96,219 | source, extension, category=family-civil, year=2014, lang=en |
-| 2 | Children Law 2016.txt | Luật số 102/2016/QH13 | 92,195 | source, extension, category=family-civil, year=2016, lang=en |
-| 3 | Law on Educators 2025.txt | Luật số 73/2025/QH15 | 38,960 | source, extension, category=education, year=2025, lang=en |
-| 4 | Law on Investment 2025.txt | Luật số 143/2025/QH15 | 106,798 | source, extension, category=business, year=2025, lang=en |
-| 5 | Law on Press 2025.txt | Luật số 126/2025/QH15 | 61,199 | source, extension, category=media-press, year=2025, lang=en |
-| 6 | Law on Population 2025.txt | Luật số 113/2025/QH15 | 29,859 | source, extension, category=population, year=2025, lang=en |
-
-**Tổng:** 6 tài liệu, ~425,000 ký tự, 5 lĩnh vực pháp luật khác nhau
+| 1 | python_intro.txt | Lab sample data | 1,944 | source, extension, category=technical, lang=en |
+| 2 | vector_store_notes.md | Lab sample data | 2,123 | source, extension, category=technical, lang=en |
+| 3 | rag_system_design.md | Lab sample data | 2,391 | source, extension, category=technical, lang=en |
+| 4 | customer_support_playbook.txt | Lab sample data | 1,703 | source, extension, category=operations, lang=en |
+| 5 | chunking_experiment_report.md | Lab sample data | 2,008 | source, extension, category=technical, lang=en |
+| 6 | vi_retrieval_notes.md | Lab sample data | 2,188 | source, extension, category=technical, lang=vi |
 
 ### Metadata Schema
 
 | Trường metadata | Kiểu | Ví dụ giá trị | Tại sao hữu ích cho retrieval? |
 |----------------|------|---------------|-------------------------------|
-| category | string | "family-civil", "business", "education", "media-press", "population" | **Critical cho legal retrieval** — khi user hỏi về đầu tư, filter `category=business` loại bỏ hoàn toàn các luật không liên quan (gia đình, báo chí), tăng precision đáng kể |
-| year | string | "2014", "2016", "2025" | Cho phép filter theo **thời gian hiệu lực** — luật mới thay thế luật cũ, nên khi user hỏi "quy định hiện hành", filter `year=2025` trả về luật mới nhất |
-| lang | string | "en" | Đánh dấu ngôn ngữ tài liệu — hỗ trợ tương lai khi thêm bản tiếng Việt song song |
-| source | string | "Law on Marriage and Family 2014.txt" | **Traceability** — cho phép trích dẫn chính xác nguồn luật trong câu trả lời, tăng trust và compliance |
-| extension | string | ".txt" | Phân loại format tài liệu cho pipeline processing |
+| category | string | "technical", "operations" | Cho phép filter theo loại tài liệu — khi user hỏi về kỹ thuật, chỉ search trong tài liệu technical, tránh nhiễu từ tài liệu operations |
+| lang | string | "en", "vi" | Hỗ trợ filter theo ngôn ngữ — khi user hỏi bằng tiếng Việt, ưu tiên tài liệu tiếng Việt để cải thiện relevance |
+| source | string | "data/python_intro.txt" | Traceability — cho phép user biết câu trả lời đến từ tài liệu nào, tăng trust |
+| extension | string | ".md", ".txt" | Phân biệt format tài liệu, markdown files thường có cấu trúc heading rõ ràng hơn |
 
 ---
 
@@ -83,88 +80,92 @@
 
 ### Baseline Analysis
 
-Chạy `ChunkingStrategyComparator().compare()` trên 3 tài liệu pháp luật (chunk_size=500):
+Chạy `ChunkingStrategyComparator().compare()` trên 3 tài liệu (chunk_size=200):
 
-| Tài liệu | Strategy | Chunk Count | Avg Length | Preserves Legal Structure? |
-|-----------|----------|-------------|------------|---------------------------|
-| Law on Marriage and Family 2014 (5000 chars) | FixedSizeChunker | 10 | 500.0 | ❌ Cắt giữa Điều, trộn nội dung 2 điều khoản vào 1 chunk |
-| Law on Marriage and Family 2014 | SentenceChunker | 16 | 310.2 | ⚠️ Giữ câu, nhưng tách Điều thành nhiều chunk rời rạc |
-| Law on Marriage and Family 2014 | RecursiveChunker | 13 | 382.8 | ⚠️ Tách tại `\n\n`, tốt hơn fixed nhưng không nhận biết "Article" |
-| Law on Marriage and Family 2014 | **LawArticleChunker** | **14** | **353.6** | ✅ **Mỗi chunk = 1-2 Điều hoàn chỉnh, giữ nguyên heading** |
-| Children Law 2016 (5000 chars) | FixedSizeChunker | 10 | 500.0 | ❌ Cắt giữa điều khoản |
-| Children Law 2016 | SentenceChunker | 21 | 235.0 | ⚠️ Chunk nhỏ, mất liên kết giữa các khoản cùng Điều |
-| Children Law 2016 | RecursiveChunker | 14 | 355.0 | ⚠️ Trung bình, không optimal cho law |
-| Children Law 2016 | **LawArticleChunker** | **17** | **289.2** | ✅ **Tách đúng ranh giới Điều, chunk coherent** |
-| Law on Educators 2025 (5000 chars) | FixedSizeChunker | 10 | 500.0 | ❌ Trộn chapter header vào content |
-| Law on Educators 2025 | SentenceChunker | 24 | 205.1 | ⚠️ Quá nhiều chunk nhỏ, fragmented |
-| Law on Educators 2025 | RecursiveChunker | 12 | 414.5 | ⚠️ Chunk lớn hơn nhưng cắt ngang Article |
-| Law on Educators 2025 | **LawArticleChunker** | **14** | **351.2** | ✅ **Respect Chapter > Section > Article hierarchy** |
+| Tài liệu | Strategy | Chunk Count | Avg Length | Preserves Context? |
+|-----------|----------|-------------|------------|-------------------|
+| python_intro.txt (1,944 chars) | FixedSizeChunker (`fixed_size`) | 10 | 194.4 | ❌ Cắt giữa câu, mất ngữ cảnh |
+| python_intro.txt | SentenceChunker (`by_sentences`) | 5 | 387.0 | ✅ Giữ trọn câu, context tốt |
+| python_intro.txt | RecursiveChunker (`recursive`) | 14 | 136.9 | ⚠️ Chunk nhỏ, nhưng tách tại ranh giới tự nhiên |
+| vector_store_notes.md (2,123 chars) | FixedSizeChunker (`fixed_size`) | 11 | 193.0 | ❌ Cắt giữa heading/paragraph |
+| vector_store_notes.md | SentenceChunker (`by_sentences`) | 8 | 263.6 | ✅ Tốt cho prose text |
+| vector_store_notes.md | RecursiveChunker (`recursive`) | 18 | 116.1 | ⚠️ Quá nhiều chunk nhỏ |
+| rag_system_design.md (2,391 chars) | FixedSizeChunker (`fixed_size`) | 12 | 199.2 | ❌ Không respect markdown structure |
+| rag_system_design.md | SentenceChunker (`by_sentences`) | 5 | 476.0 | ⚠️ Chunk khá lớn, nhưng coherent |
+| rag_system_design.md | RecursiveChunker (`recursive`) | 20 | 117.7 | ✅ Tách theo `\n\n` trước, respect markdown |
 
-### Strategy Của Tôi: LawArticleChunker
+### Strategy Của Tôi
 
-**Loại:** Custom domain-specific chunker (kế thừa từ `RecursiveChunker`)
+**Loại:** RecursiveChunker (tuned parameters) + Metadata-enhanced indexing
 
 **Mô tả cách hoạt động:**
-> `LawArticleChunker` là một chiến lược chunking được thiết kế đặc biệt cho tài liệu pháp luật. Thay vì sử dụng các separator mặc định (`\n\n`, `\n`, `. `, ` `, `""`), chunker này sử dụng **chuỗi separator ưu tiên theo cấu trúc luật**:
->
-> 1. `"\nChapter "` — tách tại ranh giới Chương (đơn vị cấu trúc lớn nhất)
-> 2. `"\nSection "` — tách tại ranh giới Mục
-> 3. `"\nArticle "` — **separator chính** — tách tại ranh giới Điều (đơn vị ngữ nghĩa cốt lõi)
-> 4. `"\n\n"` → `"\n"` → `". "` → `" "` → `""` — fallback cascade cho các Điều quá dài
->
-> Khi một Điều luật có kích thước ≤ `chunk_size` (mặc định 600 chars), nó được giữ nguyên thành 1 chunk. Nếu vượt quá, nó được chia nhỏ hơn bằng cascade separator tiếp theo (`\n\n` → paragraph breaks trong Điều).
+> RecursiveChunker hoạt động theo nguyên tắc "thử separator từ thô đến mịn". Đầu tiên, nó thử tách text bằng `\n\n` (paragraph break) — separator tự nhiên nhất trong markdown. Nếu các phần sau khi tách vẫn quá lớn, nó tiếp tục thử `\n` (line break), rồi `. ` (sentence break), rồi ` ` (word break), và cuối cùng là tách từng ký tự. Các phần nhỏ hơn chunk_size được gộp lại thành chunk lớn hơn để tận dụng không gian. Strategy này đặc biệt phù hợp với tài liệu markdown vì nó respect cấu trúc heading/paragraph tự nhiên của tài liệu.
 
-**Tại sao tôi chọn strategy này cho domain pháp luật?**
-> Tài liệu pháp luật Việt Nam có cấu trúc phân cấp chặt chẽ: **Chương → Mục → Điều → Khoản → Điểm**. Mỗi Điều (Article) là một **đơn vị ngữ nghĩa tự chứa** — nó quy định một vấn đề cụ thể và thường được trích dẫn độc lập (ví dụ: "theo Điều 8 Luật Hôn nhân"). FixedSizeChunker cắt giữa Điều, tạo chunk chứa nửa cuối Điều 7 + nửa đầu Điều 8 → vô nghĩa cho retrieval. LawArticleChunker đảm bảo mỗi chunk chứa **toàn bộ một Điều**, giúp retrieval trả về đúng Điều chứa câu trả lời.
+**Tại sao tôi chọn strategy này cho domain nhóm?**
+> Tài liệu kỹ thuật thường có cấu trúc markdown rõ ràng với headings, paragraphs, và bullet points. RecursiveChunker khai thác cấu trúc này bằng cách ưu tiên tách tại paragraph breaks (`\n\n`) trước, giữ nguyên các section hoàn chỉnh. Điều này giúp mỗi chunk chứa một ý tưởng trọn vẹn (ví dụ: một section "Metadata Matters" hoặc "Common Risks") thay vì bị cắt giữa chừng như FixedSizeChunker.
 
 **Code snippet:**
 ```python
-class LawArticleChunker(RecursiveChunker):
-    """Domain-specific chunker for legal documents."""
+class RecursiveChunker:
+    DEFAULT_SEPARATORS = ["\n\n", "\n", ". ", " ", ""]
 
-    LAW_SEPARATORS = [
-        "\nChapter ",   # broadest structural unit
-        "\nSection ",   # sub-structural unit
-        "\nArticle ",   # individual provision — primary target
-        "\n\n", "\n", ". ", " ", "",
-    ]
+    def __init__(self, separators=None, chunk_size=500):
+        self.separators = self.DEFAULT_SEPARATORS if separators is None else list(separators)
+        self.chunk_size = chunk_size
 
-    def __init__(self, chunk_size: int = 600) -> None:
-        super().__init__(separators=self.LAW_SEPARATORS, chunk_size=chunk_size)
+    def chunk(self, text):
+        if not text or len(text) <= self.chunk_size:
+            return [text] if text else []
+        results = self._split(text, self.separators)
+        return [c.strip() for c in results if c.strip()]
+
+    def _split(self, current_text, remaining_separators):
+        if len(current_text) <= self.chunk_size:
+            return [current_text] if current_text else []
+        if not remaining_separators:
+            return [current_text[i:i+self.chunk_size] for i in range(0, len(current_text), self.chunk_size)]
+
+        separator = remaining_separators[0]
+        if separator == "":
+            return [current_text[i:i+self.chunk_size] for i in range(0, len(current_text), self.chunk_size)]
+
+        parts = current_text.split(separator)
+        merged, buffer = [], ""
+        for part in parts:
+            candidate = buffer + separator + part if buffer else part
+            if len(candidate) <= self.chunk_size:
+                buffer = candidate
+            else:
+                if buffer: merged.append(buffer)
+                buffer = ""
+                if len(part) <= self.chunk_size:
+                    buffer = part
+                else:
+                    merged.extend(self._split(part, remaining_separators[1:]))
+        if buffer: merged.append(buffer)
+        return merged
 ```
 
-### Deep Analysis: LawArticleChunker vs RecursiveChunker (chunk_size=600, 10,000 chars)
+### So Sánh: Strategy của tôi vs Baseline
 
-| Tài liệu | LawArticleChunker | RecursiveChunker | Winner |
-|-----------|-------------------|------------------|--------|
-| Law on Marriage and Family 2014 | 23 chunks, avg=431 chars | 21 chunks, avg=474 chars | **LawArticle** — chunk bắt đầu bằng "Article X." heading |
-| Children Law 2016 | 23 chunks, avg=429 chars | 22 chunks, avg=452 chars | **LawArticle** — Điều 1 "A child is a human being below 16" giữ nguyên |
-| Law on Educators 2025 | 26 chunks, avg=378 chars | 21 chunks, avg=474 chars | **LawArticle** — tách Chapter I/II boundaries chính xác |
-
-**Ví dụ chunk output từ LawArticleChunker (Children Law 2016):**
-```
-chunk[1]: "I  GENERAL PROVISIONS  Article 1. Children  A child is a 
-           human being below the age of 16.  Article 2. Scope  ..."
-chunk[2]: "3. Regulated entities  State agencies, political organizations,
-           socio-political organizations..."
-```
-→ Chunk 1 chứa trọn vẹn Điều 1 + Điều 2 (cùng Chapter I), tạo context coherent cho retrieval.
+| Tài liệu | Strategy | Chunk Count | Avg Length | Retrieval Quality? |
+|-----------|----------|-------------|------------|-------------------|
+| vector_store_notes.md | best baseline (SentenceChunker) | 8 | 263.6 | Tốt, nhưng có chunk chứa nhiều ý |
+| vector_store_notes.md | **RecursiveChunker (tuned, size=300)** | ~12 | ~170 | Tốt hơn — mỗi chunk là 1 section/paragraph hoàn chỉnh |
+| rag_system_design.md | best baseline (SentenceChunker) | 5 | 476.0 | Chunk quá lớn, dilute semantic focus |
+| rag_system_design.md | **RecursiveChunker (tuned, size=300)** | ~14 | ~165 | Tốt nhất — respect markdown sections |
 
 ### So Sánh Với Thành Viên Khác
 
-| Thành viên | Strategy | Mô tả | Điểm mạnh | Điểm yếu |
-|-----------|----------|-------|-----------|----------|
-| Tôi | **LawArticleChunker** (custom) | Tách theo Article/Chapter/Section boundaries | Giữ nguyên đơn vị pháp lý, chunk coherent, tối ưu cho legal retrieval | Chunk count cao hơn, article dài bị chia nhỏ |
-| Thành viên 2 | RecursiveChunker (tuned, size=400) | Tách theo `\n\n` → `\n` → `. ` | Đa năng, hoạt động tốt với mọi loại tài liệu | Không nhận biết cấu trúc Article, chunk có thể cắt giữa Điều |
-| Thành viên 3 | SentenceChunker (5 sentences/chunk) | Tách theo ranh giới câu, gom 5 câu | Đơn giản, giữ trọn câu | Mất liên kết giữa các khoản cùng Điều, chunk không có heading |
+| Thành viên | Strategy | Retrieval Score (/10) | Điểm mạnh | Điểm yếu |
+|-----------|----------|----------------------|-----------|----------|
+| Tôi | RecursiveChunker (tuned) | 8/10 | Respect cấu trúc markdown, chunk coherent | Chunk count cao hơn, tốn memory |
+| Duy - 2A202600189 | LegalArticleChunker | 9/10 | Giữ trọn vẹn bối cảnh Điều luật. Giảm 4x chunks → tiết kiệm chi phí. | Avg cosine score thấp hơn do chunk dài. Cần điều chỉnh regex nếu format header thay đổi. | 
+| Huỳnh Lê Xuân Ánh - 2A202600083 | sentence | 8.5 | Chunk size cân đối, giữ được ngữ cảnh văn bản luật, similarity score đồng đều | Không tối ưu cho tài liệu rất dài | 
+|Huyynh Nhut Huy - 2A202600084 | structured_legal | 9.5/10 | giữ được 100% article coverage| Tuy nhiên hơi mất thời gian cho quá trình embedding tất cả tài liệu
 
-**Strategy nào tốt nhất cho domain pháp luật? Tại sao?**
-> **LawArticleChunker** vượt trội rõ ràng cho domain pháp luật vì nó là chunker duy nhất nhận biết cấu trúc phân cấp Chapter → Section → Article. Cụ thể:
-> - **Chunk coherence**: Mỗi chunk bắt đầu bằng "Article X." heading, giúp LLM biết đang đọc Điều nào → giảm hallucination
-> - **Retrieval precision**: Khi user hỏi "Điều kiện kết hôn?", chunk chứa trọn Điều 8 (marriage conditions) được trả về thay vì nửa Điều 7 + nửa Điều 8
-> - **Legal citation**: Agent có thể trích dẫn chính xác "theo Điều 8, Luật Hôn nhân 2014" vì heading được giữ nguyên
->
-> RecursiveChunker hoạt động tạm được nhờ `\n\n` trùng với paragraph breaks trong luật, nhưng không phân biệt được paragraph trong Điều vs. paragraph giữa hai Điều. SentenceChunker kém nhất — tách Điều thành nhiều chunk rời rạc, mất liên kết logic giữa các khoản.
+**Strategy nào tốt nhất cho domain này? Tại sao?**
+> RecursiveChunker là strategy tốt nhất cho domain tài liệu kỹ thuật markdown vì nó tôn trọng cấu trúc tự nhiên của tài liệu. Khi tách theo `\n\n` trước, mỗi section (ví dụ "## Metadata Matters", "## Common Risks") được giữ nguyên thành một chunk, giúp retrieval trả về đúng section chứa câu trả lời thay vì một đoạn text bị cắt giữa chừng. SentenceChunker cũng tốt cho prose text nhưng không khai thác được cấu trúc heading.
 
 ---
 
@@ -180,21 +181,18 @@ Giải thích cách tiếp cận của bạn khi implement các phần chính tr
 **`RecursiveChunker.chunk` / `_split`** — approach:
 > Algorithm hoạt động theo cơ chế đệ quy top-down: bắt đầu với separator thô nhất (`\n\n`), tách text thành các phần, rồi gộp (merge) các phần liền kề nếu tổng kích thước ≤ chunk_size. Nếu một phần vẫn quá lớn, đệ quy gọi `_split` với separator tiếp theo trong danh sách. Base case: text ≤ chunk_size thì trả về nguyên, hoặc danh sách separator rỗng thì force-split theo chunk_size. Separator `""` được xử lý đặc biệt — tách từng ký tự rồi gộp thành chunk_size, đảm bảo algorithm luôn terminate.
 
-**`LawArticleChunker`** — approach:
-> Kế thừa toàn bộ logic đệ quy từ `RecursiveChunker`, chỉ override separator list thành `LAW_SEPARATORS` = `["\nChapter ", "\nSection ", "\nArticle ", "\n\n", "\n", ". ", " ", ""]`. Design decision quan trọng: đặt `"\nArticle "` **trước** `"\n\n"` trong priority list, nghĩa là chunker sẽ thử tách theo ranh giới Article trước khi tách theo paragraph. Điều này đảm bảo mỗi chunk tương ứng với một unit pháp lý hoàn chỉnh. Default chunk_size = 600 (lớn hơn mặc định 500) vì các Điều luật thường dài hơn paragraph thông thường.
-
 ### EmbeddingStore
 
 **`add_documents` + `search`** — approach:
 > Mỗi document được chuyển thành record gồm: unique id (doc_id + index), content, embedding vector (từ embedding_fn), và metadata (copy từ document + thêm doc_id). Records được lưu trong `self._store` (list of dicts) cho in-memory mode, hoặc ChromaDB collection nếu available. Search hoạt động bằng cách embed query, tính dot product giữa query embedding và tất cả stored embeddings, sort descending theo score, rồi trả về top_k kết quả. Mỗi kết quả chứa `content`, `metadata`, và `score`.
 
 **`search_with_filter` + `delete_document`** — approach:
-> `search_with_filter` áp dụng strategy "filter trước, search sau" — đầu tiên lọc `self._store` chỉ giữ các records có metadata match tất cả key-value pairs trong `metadata_filter`, rồi chạy `_search_records` trên tập đã lọc. Ví dụ thực tế: khi filter `year=2025`, chỉ 4 luật (Educators, Investment, Press, Population) được search, loại bỏ hoàn toàn Marriage 2014 và Children 2016. `delete_document` sử dụng list comprehension để tạo store mới không chứa records có `doc_id` matching, rồi so sánh length trước/sau để return True/False.
+> `search_with_filter` áp dụng strategy "filter trước, search sau" — đầu tiên lọc `self._store` chỉ giữ các records có metadata match tất cả key-value pairs trong `metadata_filter`, rồi chạy `_search_records` trên tập đã lọc. Nếu `metadata_filter` là None, fallback về `search()` thông thường. `delete_document` sử dụng list comprehension để tạo store mới không chứa records có `doc_id` matching, rồi so sánh length trước/sau để return True/False. Cả hai method đều support cả ChromaDB và in-memory mode.
 
 ### KnowledgeBaseAgent
 
 **`answer`** — approach:
-> RAG pattern gồm 3 bước: (1) Retrieve top-k chunks từ store bằng `self.store.search(question, top_k)`; (2) Build prompt có cấu trúc rõ ràng với section "Retrieved Context" chứa các chunk được đánh số, kèm source và relevance score, và section "Question" chứa câu hỏi; (3) Call `self.llm_fn(prompt)` để generate answer. Prompt được thiết kế với instruction yêu cầu LLM chỉ trả lời dựa trên context được cung cấp ("Answer based ONLY on the provided context"), giúp giảm hallucination — đặc biệt quan trọng cho legal domain nơi accuracy là bắt buộc.
+> RAG pattern gồm 3 bước: (1) Retrieve top-k chunks từ store bằng `self.store.search(question, top_k)`; (2) Build prompt có cấu trúc rõ ràng với section "Retrieved Context" chứa các chunk được đánh số, kèm source và relevance score, và section "Question" chứa câu hỏi; (3) Call `self.llm_fn(prompt)` để generate answer. Prompt được thiết kế với instruction yêu cầu LLM chỉ trả lời dựa trên context được cung cấp ("Answer based ONLY on the provided context"), giúp giảm hallucination. Context được format với separator `---` giữa các chunk để LLM dễ phân biệt.
 
 ### Test Results
 
@@ -208,7 +206,44 @@ collected 42 items
 tests/test_solution.py::TestProjectStructure::test_root_main_entrypoint_exists PASSED [  2%]
 tests/test_solution.py::TestProjectStructure::test_src_package_exists PASSED [  4%]
 tests/test_solution.py::TestClassBasedInterfaces::test_chunker_classes_exist PASSED [  7%]
-...
+tests/test_solution.py::TestClassBasedInterfaces::test_mock_embedder_exists PASSED [  9%]
+tests/test_solution.py::TestFixedSizeChunker::test_chunks_respect_size PASSED [ 11%]
+tests/test_solution.py::TestFixedSizeChunker::test_correct_number_of_chunks_no_overlap PASSED [ 14%]
+tests/test_solution.py::TestFixedSizeChunker::test_empty_text_returns_empty_list PASSED [ 16%]
+tests/test_solution.py::TestFixedSizeChunker::test_no_overlap_no_shared_content PASSED [ 19%]
+tests/test_solution.py::TestFixedSizeChunker::test_overlap_creates_shared_content PASSED [ 21%]
+tests/test_solution.py::TestFixedSizeChunker::test_returns_list PASSED [ 23%]
+tests/test_solution.py::TestFixedSizeChunker::test_single_chunk_if_text_shorter PASSED [ 26%]
+tests/test_solution.py::TestSentenceChunker::test_chunks_are_strings PASSED [ 28%]
+tests/test_solution.py::TestSentenceChunker::test_respects_max_sentences PASSED [ 30%]
+tests/test_solution.py::TestSentenceChunker::test_returns_list PASSED [ 33%]
+tests/test_solution.py::TestSentenceChunker::test_single_sentence_max_gives_many_chunks PASSED [ 35%]
+tests/test_solution.py::TestRecursiveChunker::test_chunks_within_size_when_possible PASSED [ 38%]
+tests/test_solution.py::TestRecursiveChunker::test_empty_separators_falls_back_gracefully PASSED [ 40%]
+tests/test_solution.py::TestRecursiveChunker::test_handles_double_newline_separator PASSED [ 42%]
+tests/test_solution.py::TestRecursiveChunker::test_returns_list PASSED [ 45%]
+tests/test_solution.py::TestEmbeddingStore::test_add_documents_increases_size PASSED [ 47%]
+tests/test_solution.py::TestEmbeddingStore::test_add_more_increases_further PASSED [ 50%]
+tests/test_solution.py::TestEmbeddingStore::test_initial_size_is_zero PASSED [ 52%]
+tests/test_solution.py::TestEmbeddingStore::test_search_results_have_content_key PASSED [ 54%]
+tests/test_solution.py::TestEmbeddingStore::test_search_results_have_score_key PASSED [ 57%]
+tests/test_solution.py::TestEmbeddingStore::test_search_results_sorted_by_score_descending PASSED [ 59%]
+tests/test_solution.py::TestEmbeddingStore::test_search_returns_at_most_top_k PASSED [ 61%]
+tests/test_solution.py::TestEmbeddingStore::test_search_returns_list PASSED [ 64%]
+tests/test_solution.py::TestKnowledgeBaseAgent::test_answer_non_empty PASSED [ 66%]
+tests/test_solution.py::TestKnowledgeBaseAgent::test_answer_returns_string PASSED [ 69%]
+tests/test_solution.py::TestComputeSimilarity::test_identical_vectors_return_1 PASSED [ 71%]
+tests/test_solution.py::TestComputeSimilarity::test_opposite_vectors_return_minus_1 PASSED [ 73%]
+tests/test_solution.py::TestComputeSimilarity::test_orthogonal_vectors_return_0 PASSED [ 76%]
+tests/test_solution.py::TestComputeSimilarity::test_zero_vector_returns_0 PASSED [ 78%]
+tests/test_solution.py::TestCompareChunkingStrategies::test_counts_are_positive PASSED [ 80%]
+tests/test_solution.py::TestCompareChunkingStrategies::test_each_strategy_has_count_and_avg_length PASSED [ 83%]
+tests/test_solution.py::TestCompareChunkingStrategies::test_returns_three_strategies PASSED [ 85%]
+tests/test_solution.py::TestEmbeddingStoreSearchWithFilter::test_filter_by_department PASSED [ 88%]
+tests/test_solution.py::TestEmbeddingStoreSearchWithFilter::test_no_filter_returns_all_candidates PASSED [ 90%]
+tests/test_solution.py::TestEmbeddingStoreSearchWithFilter::test_returns_at_most_top_k PASSED [ 92%]
+tests/test_solution.py::TestEmbeddingStoreDeleteDocument::test_delete_reduces_collection_size PASSED [ 95%]
+tests/test_solution.py::TestEmbeddingStoreDeleteDocument::test_delete_returns_false_for_nonexistent_doc PASSED [ 97%]
 tests/test_solution.py::TestEmbeddingStoreDeleteDocument::test_delete_returns_true_for_existing_doc PASSED [100%]
 
 ============================= 42 passed in 0.21s ==============================
@@ -220,135 +255,86 @@ tests/test_solution.py::TestEmbeddingStoreDeleteDocument::test_delete_returns_tr
 
 ## 5. Similarity Predictions — Cá nhân (5 điểm)
 
-> **Lưu ý:** Kết quả dưới đây sử dụng `_mock_embed` (hash-based deterministic embedding) nên score không phản ánh semantic similarity thực sự. Với real embedder (`all-MiniLM-L6-v2` hoặc OpenAI), kết quả sẽ phản ánh ngữ nghĩa chính xác hơn. Tất cả 5 pairs đều sử dụng câu trích từ bộ luật thực tế trong dataset.
+> **Lưu ý:** Kết quả dưới đây sử dụng `_mock_embed` (hash-based deterministic embedding) nên score không phản ánh semantic similarity thực sự. Với local embedder (`all-MiniLM-L6-v2`) hoặc OpenAI embedder, kết quả sẽ phản ánh ngữ nghĩa chính xác hơn.
 
-| Pair | Sentence A | Sentence B | Dự đoán | Actual Score | Phân tích |
-|------|-----------|-----------|---------|--------------|-----------|
-| 1 | "A child is a human being below the age of 16." (Children Law, Art. 1) | "The man must be full 20 years or older to get married." (Marriage Law, Art. 8) | Medium — cả hai về ngưỡng tuổi | **−0.0667** | ⚠️ Mock không nhận ra cùng pattern "age threshold". Real embedding sẽ cho score ~0.4-0.6 vì cùng cấu trúc "X years or older/below" |
-| 2 | "Educators are the core force of the education sector." (Educators Law) | "Press agencies are the mouthpieces of Party agencies." (Press Law) | Low — khác domain hoàn toàn | **−0.0470** | ✅ Đúng — gần 0, hai lĩnh vực không liên quan. Tuy nhiên cùng pattern "X are the Y of Z" nên real embedding có thể cho ~0.2 |
-| 3 | "The State recognizes and protects the ownership of assets." (Investment Law) | "Investors are entitled to carry out business investment activities." (Investment Law) | Medium — cùng law, quan hệ nhà nước-nhà đầu tư | **0.1140** | ✅ Score cao nhất trong 5 pairs — cùng domain "investment/business", mock hash trùng lặp từ vựng |
-| 4 | "Children have the right to be protected from sexual abuse." (Children Law) | "Children have the right to be protected from labor exploitation." (Children Law) | High — cùng cấu trúc, cùng chủ thể | **−0.0895** | ❌ **Bất ngờ nhất!** Cùng 8/12 từ giống hệt nhau nhưng mock cho score âm. Real embedding sẽ cho >0.85 vì gần như paraphrase |
-| 5 | "The Government uniformly manages the press nationwide." (Press Law) | "Replacement-level fertility means the average of 2.1 children per woman." (Population Law) | Very low — hoàn toàn khác topic | **−0.1214** | ✅ Score âm nhất — đúng dự đoán, hai câu không có bất kỳ overlap ngữ nghĩa nào |
+| Pair | Sentence A | Sentence B | Dự đoán | Actual Score | Đúng? |
+|------|-----------|-----------|---------|--------------|-------|
+| 1 | "Python is a programming language used for machine learning." | "Python is widely used in AI and data science." | high | 0.0441 | ⚠️ Thấp hơn dự đoán (do mock embedder) |
+| 2 | "The weather is sunny and warm today." | "Deep learning models require GPU acceleration." | low | -0.0840 | ✅ Đúng — score âm, rất khác nhau |
+| 3 | "Vector databases store embeddings for similarity search." | "A vector store retrieves the most similar items to a query." | high | 0.0575 | ⚠️ Thấp hơn kỳ vọng (mock limitation) |
+| 4 | "Dogs are loyal companions." | "Cats are independent pets." | low | 0.1497 | ⚠️ Cao hơn dự đoán — pets/animals domain overlap |
+| 5 | "Cosine similarity measures the angle between two vectors." | "Euclidean distance computes the straight-line distance." | high | 0.1150 | ⚠️ Moderate — cùng math domain |
 
 **Kết quả nào bất ngờ nhất? Điều này nói gì về cách embeddings biểu diễn nghĩa?**
-> **Pair 4** là kết quả bất ngờ nhất: hai câu gần như giống hệt nhau (chỉ khác "sexual abuse" vs "labor exploitation") nhưng mock embedding cho score −0.0895 (âm!). Điều này chứng minh rõ ràng rằng **mock embeddings (hash-based) hoàn toàn không capture semantic similarity** — chúng tạo vector dựa trên MD5 hash, nên sự khác biệt nhỏ trong text dẫn đến vector hoàn toàn khác. Bài học quan trọng:
-> 
-> 1. **Embedding quality quyết định retrieval quality** — không có real embedding, mọi evaluation đều không đáng tin cậy
-> 2. **Syntactic similarity ≠ hash similarity** — mock embeddings có thể cho score cao với text khác domain nhưng tình cờ có hash tương tự
-> 3. **Cần real embedding model** (`all-MiniLM-L6-v2` hoặc `text-embedding-3-small`) để đánh giá chunking strategy một cách chính xác
+> Kết quả bất ngờ nhất là Pair 4 ("Dogs" vs "Cats"): dự đoán low similarity vì chó và mèo là khác nhau, nhưng actual score lại cao nhất (0.1497). Điều này cho thấy mock embeddings (hash-based) không phản ánh semantic meaning mà chỉ dựa trên hash của text. Với real embeddings, Pair 1 và Pair 3 sẽ có score cao hơn nhiều (do cùng semantic domain), còn Pair 2 sẽ gần 0. Bài học: **chất lượng embedding model ảnh hưởng trực tiếp đến retrieval quality** — mock embeddings đủ để test code logic nhưng không phản ánh semantic search thực tế. Để có kết quả meaningful, cần dùng `all-MiniLM-L6-v2` hoặc OpenAI embeddings.
 
 ---
 
 ## 6. Results — Cá nhân (10 điểm)
 
+Chạy 5 benchmark queries trên implementation cá nhân sử dụng mock embeddings.
+
 ### Benchmark Queries & Gold Answers (nhóm thống nhất)
 
-| # | Query | Gold Answer | Chunk chứa thông tin |
-|---|-------|-------------|---------------------|
-| 1 | What is the legal marriage age for men and women in Vietnam? | The man must be full 20 years or older, the woman must be full 18 years or older (Article 8, Law on Marriage and Family 2014) | Marriage Law Art. 8 |
-| 2 | What is the definition of a child under Vietnamese law? | A child is a human being below the age of 16 (Article 1, Children Law 2016) | Children Law Art. 1 |
-| 3 | What are the prohibited acts regarding the press in Vietnam? | Prohibited acts include posting info opposing the State, inciting violence, disclosing state secrets, disseminating false info (Article 8, Law on Press 2025) | Press Law Art. 8 |
-| 4 | What qualifications are required for educators at the university level? | Lecturers at university must possess a master's degree or higher; postgraduate lecturers must hold a doctorate (Article 28, Law on Educators 2025) | Educators Law Art. 28 |
-| 5 | What are the banned business lines for investment in Vietnam? | Banned: narcotics, prostitution, human trafficking, asexual reproduction, firecrackers, debt collection services, national treasures, e-cigarettes (Article 6, Law on Investment 2025) | Investment Law Art. 6 |
+| # | Query | Gold Answer |
+|---|-------|-------------|
+| 1 | What is Python commonly used for in production environments? | Python is used to build APIs, data pipelines, internal tools, and model-serving layers using frameworks like FastAPI, Django, and Flask. |
+| 2 | What are the four stages of a vector search pipeline? | 1) Chunk documents, 2) Embed each chunk, 3) Store vector and metadata, 4) Embed query and rank by similarity. |
+| 3 | What is the goal of the RAG system for the internal knowledge assistant? | Build a retrieval-augmented generation system that finds relevant internal documents before producing answers, reducing hallucinations by grounding responses in retrieved text. |
+| 4 | Why is metadata important in vector stores? | Metadata allows filtering search space by fields like source, language, department, improving precision and preventing retrieval of irrelevant or outdated content. |
+| 5 | What are the risks of using vector stores for retrieval? | Poor chunking, low-quality embeddings, missing metadata, and weak evaluation can cause misleading results — semantically adjacent but not useful passages. |
 
-**Yêu cầu metadata filtering:** Query 5 — sử dụng `category=business` hoặc `year=2025` để filter chỉ Luật Đầu tư, tránh trả về Luật Hôn nhân hay Luật Trẻ em không liên quan.
+### Kết Quả Của Tôi
 
-### Kết Quả Của Tôi (Mock Embeddings)
+| # | Query | Top-1 Retrieved Chunk (tóm tắt) | Score | Relevant? | Agent Answer (tóm tắt) |
+|---|-------|--------------------------------|-------|-----------|------------------------|
+| 1 | What is Python commonly used for in production environments? | vector_store_notes.md - "A vector store is a database..." | 0.1239 | ❌ (mock limitation) | Context từ vector_store_notes thay vì python_intro |
+| 2 | What are the four stages of a vector search pipeline? | chunking_experiment_report.md - "Chunking Experiment Report..." | 0.1998 | ⚠️ Partial — cùng domain nhưng không chứa 4 stages | Context liên quan nhưng thiếu chi tiết 4 stages |
+| 3 | What is the goal of the RAG system? | vector_store_notes.md - "A vector store is a database..." | 0.0639 | ⚠️ Partial — liên quan RAG nhưng không đúng doc | Context từ vector_store thay vì rag_system_design |
+| 4 | Why is metadata important in vector stores? | vi_retrieval_notes.md - "Ghi chú về Retrieval..." | 0.2853 | ✅ Có nói về metadata | Content đề cập metadata importance |
+| 5 | What are the risks of using vector stores? | vi_retrieval_notes.md - "Ghi chú về Retrieval..." | 0.2614 | ✅ Có nói về risks | Content đề cập retrieval risks |
 
-| # | Query | Top-1 Source | Score | Top-1 Relevant? | Top-3 Relevant? |
-|---|-------|-------------|-------|-----------------|-----------------|
-| 1 | Legal marriage age? | Law on Investment 2025.txt | 0.2495 | ❌ Sai hoàn toàn | ❌ Marriage Law not in top-3 |
-| 2 | Definition of a child? | **Children Law 2016.txt** | 0.1071 | ✅ **Đúng nguồn** | ✅ Top-1 chính xác |
-| 3 | Prohibited acts re: press? | **Law on Press 2025.txt** | 0.1598 | ✅ **Đúng nguồn** | ✅ Top-1 chính xác |
-| 4 | Educator qualifications? | Children Law 2016.txt | 0.1975 | ❌ Sai hoàn toàn | ❌ Educators Law not in top-3 |
-| 5 | Banned business lines? | Law on Press 2025.txt | 0.1584 | ❌ Sai hoàn toàn | ❌ Investment Law not in top-3 |
+**Bao nhiêu queries trả về chunk relevant trong top-3?** 2 / 5
 
-**Precision Summary:** 2 / 5 queries có relevant source trong top-3 → **Precision@3 = 40%**
-
-### Metadata Filtering Results
-
-| Test | Query | Filter | Top-1 Source | Improvement? |
-|------|-------|--------|-------------|-------------|
-| No filter | "Banned business lines for investment?" | None | Law on Educators 2025 (score=0.2913) | ❌ Sai |
-| Year filter | Same query | `year=2025` | Law on Educators 2025 (score=0.2913) | ❌ Vẫn sai — 4 luật cùng year=2025 |
-| Category filter | Same query | `category=family-civil` | Children Law 2016 (score=0.1332) | ❌ Sai direction — family law |
-
-> **Phân tích metadata filtering:**
-> - Filter `year=2025` giảm search space từ 6 → 4 luật, nhưng vẫn không đủ precise vì 4 luật đều year=2025
-> - Filter `category=business` (nếu dùng chính xác) sẽ chỉ giữ Luật Đầu tư → **precision tăng lên 100%**
-> - **Bài học:** Metadata filtering hiệu quả nhất khi dùng field có **high selectivity** (category chia thành 5 nhóm rõ ràng) thay vì field có **low selectivity** (year chỉ có 3 giá trị, 4/6 luật cùng 2025)
-> - Với mock embeddings, metadata filtering trở nên **quan trọng hơn bao giờ hết** vì nó là cơ chế duy nhất đảm bảo trả về đúng domain, bù đắp cho việc similarity score không đáng tin cậy
-
-### So Sánh Strategy Trong Nhóm (Ex 3.4)
-
-| Query | LawArticleChunker | RecursiveChunker | SentenceChunker |
-|-------|-----------------|---------------|--------------|
-| Q1: Marriage age | Wrong source    |  Wrong source |  Wrong source |
-| Q2: Child definition | Top-1 correct   |  Top-1 correct |  Top-3 only |
-| Q3: Press prohibited acts |  Top-1 correct  |  Top-1 correct |  Top-1 correct |
-| Q4: Educator qualifications |  Wrong source   |  Wrong source |  Wrong source |
-| Q5: Banned business lines |  Wrong source   |  Wrong source |  Wrong source |
-| **Score** | **2/5**         | **2/5** | **1.5/5** |
-
-> **Insight:** Với mock embeddings, tất cả strategies đều perform tương đương (2/5) vì bottleneck là embedding quality, không phải chunking strategy. Tuy nhiên, LawArticleChunker vẫn có lợi thế tiềm ẩn:
-> - Khi Q2 trả về đúng Children Law, chunk chứa trọn Điều 1 ("A child is...below 16") thay vì chỉ nửa câu
-> - Với real embeddings, LawArticleChunker sẽ vượt trội vì mỗi chunk là 1 Điều hoàn chỉnh → embedding vector focused hơn, dễ match hơn
+> **Phân tích:** Với mock embeddings (hash-based, không semantic), retrieval quality thấp là expected. Mock embeddings tạo vector dựa trên MD5 hash của text, không capture ý nghĩa ngữ nghĩa. Khi chuyển sang real embeddings (e.g., `all-MiniLM-L6-v2`), score sẽ phản ánh semantic similarity thực, và retrieval precision sẽ cải thiện đáng kể. Đây chính là bài học quan trọng: **embedding quality là yếu tố quyết định** cho retrieval system, không chỉ chunking strategy hay store implementation.
 
 ---
 
 ## 7. What I Learned (5 điểm — Demo)
 
 **Điều hay nhất tôi học được từ thành viên khác trong nhóm:**
-> Học được rằng **cấu trúc tài liệu gốc quyết định strategy tối ưu** — thành viên dùng RecursiveChunker cho rằng `\n\n` là separator đủ tốt, nhưng khi so sánh output cụ thể, LawArticleChunker cho chunk bắt đầu bằng "Article X." heading trong khi RecursiveChunker cắt giữa Điều. Điều này cho thấy: đừng dùng generic chunker khi bạn hiểu rõ cấu trúc dữ liệu — hãy exploit domain knowledge.
+> Học được rằng không có "one-size-fits-all" chunking strategy — SentenceChunker hoạt động tốt cho prose text liên tục nhưng kém với tài liệu có cấu trúc heading, trong khi RecursiveChunker ngược lại. Mỗi strategy có trade-off giữa chunk coherence (giữ ý trọn vẹn) và chunk count (số lượng chunk ảnh hưởng đến search space).
 
 **Điều hay nhất tôi học được từ nhóm khác (qua demo):**
-> Nhận ra tầm quan trọng của **hybrid retrieval** — một nhóm sử dụng keyword pre-filter (BM25) trước vector search, cho phép query "Điều 8 Luật Hôn nhân" match trực tiếp bằng keyword "Điều 8" trước khi so sánh embedding. Đây là giải pháp cho failure case của chúng tôi (Q1, Q4, Q5) nơi mock embedding thất bại nhưng keyword match sẽ thành công.
+> Nhận ra tầm quan trọng của metadata design — một nhóm sử dụng metadata "difficulty" (easy/medium/hard) cho tài liệu FAQ, cho phép agent trả lời câu hỏi đơn giản trước rồi escalate khi cần. Đây là ví dụ thực tế về metadata-driven retrieval improvement mà chỉ filter đơn giản nhưng tác động lớn đến user experience.
 
 **Nếu làm lại, tôi sẽ thay đổi gì trong data strategy?**
-> 1. **Embedding quality:** Sử dụng real embeddings (`all-MiniLM-L6-v2` local hoặc `text-embedding-3-small` OpenAI) — đây là bottleneck chính hiện tại
-> 2. **Chunk-level indexing:** Thay vì index toàn bộ document (96K chars), chunk bằng LawArticleChunker rồi index từng chunk riêng biệt → mỗi chunk có embedding cụ thể hơn
-> 3. **Metadata enrichment:** Tự động extract metadata từ header: chapter number, article number, article title → cho phép filter `article_number=8` khi user hỏi "Điều 8"
-> 4. **Overlap between articles:** Thêm overlap 50 chars giữa các chunk Article liền kề để giữ context tham chiếu chéo ("theo khoản 1 Điều này")
+> Tôi sẽ (1) sử dụng real embeddings (`all-MiniLM-L6-v2`) thay vì mock để có semantic search thực sự; (2) chunk tài liệu markdown theo heading sections thay vì dùng generic RecursiveChunker — tạo custom `MarkdownSectionChunker` tách theo `##` headers; (3) thêm overlap giữa các chunk để tránh mất context ở ranh giới, đặc biệt khi câu trả lời nằm ở cuối section này và đầu section kia.
 
 ### Failure Analysis (Ex 3.5)
 
-**Failure Case 1: Query 1 — "What is the legal marriage age?"**
+**Query thất bại:** "What is Python commonly used for in production environments?"
 
-| Aspect | Detail |
-|--------|--------|
-| Query | "What is the legal marriage age for men and women in Vietnam?" |
-| Expected source | Law on Marriage and Family 2014.txt (Article 8) |
-| Actual top-1 | Law on Investment 2025.txt (score=0.2495) — hoàn toàn không liên quan |
-| Root cause | **Mock embedding limitation** — MD5 hash của query tình cờ gần hash của Investment Law header hơn Marriage Law header |
-| Impact | User nhận được thông tin về đầu tư thay vì hôn nhân → nguy hiểm trong legal domain |
+**Tại sao thất bại:**
+> Mock embeddings không capture semantic meaning — hash-based vectors tạo ra similarity scores không tương quan với nội dung thực tế. Document `python_intro.txt` chứa câu trả lời chính xác ("Python is commonly used to build APIs, data pipelines, internal tools, and model-serving layers") nhưng không được rank cao vì mock embedding của query không "gần" mock embedding của document.
 
-**Failure Case 2: Query "What are the general provisions of the law?" (ambiguous)**
-
-| Aspect | Detail |
-|--------|--------|
-| Query | "What are the general provisions of the law?" (câu hỏi mơ hồ) |
-| Result | Top-5 trải đều trên 5 sources khác nhau (Children, Educators, Marriage, Investment, Population) |
-| Root cause | **Ambiguous query** — mọi luật đều có Chapter I "General Provisions", nên query không đủ specific để phân biệt |
-| Impact | Retrieval scatter, không có chunk nào dominant → agent phải đoán mò |
-
-**Đề xuất cải thiện tổng hợp:**
-> 1. **Short-term:** Chuyển sang real embedding model (`all-MiniLM-L6-v2`) — giải quyết 80% failure cases
-> 2. **Medium-term:** Index ở chunk level thay vì document level — mỗi Article có embedding riêng, giảm dilution
-> 3. **Long-term:** Implement hybrid search (BM25 + vector) — keyword "marriage age" sẽ match trực tiếp Article 8 ngay cả khi embedding model không tốt
-> 4. **Query enhancement:** Detect ambiguous queries ("general provisions") và yêu cầu user specify thêm ("of which law?") trước khi search
+**Đề xuất cải thiện:**
+> 1. **Embedding quality:** Chuyển sang `all-MiniLM-L6-v2` (local) hoặc `text-embedding-3-small` (OpenAI) để có real semantic vectors.
+> 2. **Chunking strategy:** Chunk `python_intro.txt` thành các paragraph riêng biệt (mỗi paragraph ~400 chars) thay vì giữ nguyên cả document (~1944 chars) — chunk nhỏ hơn, focused hơn sẽ có embedding cụ thể hơn.
+> 3. **Metadata filtering:** Thêm metadata `topic=["python", "production"]` để pre-filter khi query đề cập "Python" hoặc "production".
 
 ---
 
 ## Tự Đánh Giá
 
-| Tiêu chí | Loại | Điểm tự đánh giá | Giải thích |
-|----------|------|-------------------|------------|
-| Warm-up | Cá nhân | 5 / 5 | Giải thích rõ cosine similarity, ví dụ cụ thể từ dataset luật, chunking math chính xác |
-| Document selection | Nhóm | 9 / 10 | 6 tài liệu luật, 5 lĩnh vực, metadata schema 5 trường, data inventory đầy đủ |
-| Chunking strategy | Nhóm | 14 / 15 | Custom LawArticleChunker với design rationale rõ ràng, so sánh chi tiết 4 strategies, deep analysis với data thực |
-| My approach | Cá nhân | 9 / 10 | Giải thích chi tiết implementation approach cho mọi component, bao gồm edge cases |
-| Similarity predictions | Cá nhân | 5 / 5 | 5 pairs từ law dataset, dự đoán trước, phân tích mock vs real embedding behavior |
-| Results | Cá nhân | 8 / 10 | 5 benchmark queries với gold answers, kết quả thực tế, metadata filtering test, failure analysis |
-| Core implementation (tests) | Cá nhân | 30 / 30 | 42/42 tests passed |
-| Demo | Nhóm | 4 / 5 | Có insight cụ thể từ nhóm khác (hybrid retrieval), học được domain-specific chunking |
-| **Tổng** | | **84 / 100** | |
+| Tiêu chí | Loại | Điểm tự đánh giá |
+|----------|------|-------------------|
+| Warm-up | Cá nhân | 5 / 5 |
+| Document selection | Nhóm | 8 / 10 |
+| Chunking strategy | Nhóm | 13 / 15 |
+| My approach | Cá nhân | 9 / 10 |
+| Similarity predictions | Cá nhân | 4 / 5 |
+| Results | Cá nhân | 7 / 10 |
+| Core implementation (tests) | Cá nhân | 30 / 30 |
+| Demo | Nhóm | 4 / 5 |
+| **Tổng** | | **80 / 100** |
